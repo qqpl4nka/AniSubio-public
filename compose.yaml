@@ -1,0 +1,52 @@
+services:
+  anisubio:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - anisubio_data:/app/data
+
+  sync-worker:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    command: ["python", "-m", "anisubio.sync_worker", "--queue", "lazy"]
+    volumes:
+      - anisubio_data:/app/data
+    depends_on:
+      - anisubio
+
+  vacuum-worker:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    command: ["python", "-m", "anisubio.vacuum_worker"]
+    volumes:
+      - anisubio_data:/app/data
+    depends_on:
+      - anisubio
+
+  vacuum-sync-worker:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    command: ["python", "-m", "anisubio.sync_worker", "--queue", "vacuum"]
+    volumes:
+      - anisubio_data:/app/data
+    depends_on:
+      - anisubio
+
+  backup-worker:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    command: ["python", "-m", "anisubio.backup", "--loop"]
+    volumes:
+      - anisubio_data:/app/data
+    depends_on:
+      - anisubio
+
+volumes:
+  anisubio_data:

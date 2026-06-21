@@ -1,0 +1,24 @@
+[Unit]
+Description=AniSubio offline review queue analyzer
+After=anisubio-api.service
+
+[Service]
+Type=simple
+User=anisubio
+Group=anisubio
+WorkingDirectory=/opt/anisubio
+EnvironmentFile=/opt/anisubio/.env
+ExecStart=/opt/anisubio/.venv/bin/python -m anisubio.review_worker
+Restart=on-failure
+RestartSec=30
+Nice=19
+IOSchedulingClass=idle
+CPUQuota=10%
+MemoryMax=128M
+PrivateNetwork=true
+NoNewPrivileges=true
+PrivateTmp=false
+ReadWritePaths=/var/lib/anisubio /tmp/anisubio
+
+[Install]
+WantedBy=multi-user.target

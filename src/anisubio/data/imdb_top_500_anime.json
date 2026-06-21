@@ -1,0 +1,3510 @@
+{
+  "source": {
+    "imdb_list_id": "ls026392856",
+    "name": "Top 500 Anime",
+    "url": "https://www.imdb.com/list/ls026392856/",
+    "retrieved_on": "2026-06-21"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "imdb_id": "tt2560140",
+      "title": "Attack on Titan",
+      "original_title": "Shingeki no kyojin",
+      "year": 2013
+    },
+    {
+      "rank": 2,
+      "imdb_id": "tt0877057",
+      "title": "Death Note",
+      "original_title": "Death Note: Desu nôto",
+      "year": 2006
+    },
+    {
+      "rank": 3,
+      "imdb_id": "tt0388629",
+      "title": "One Piece",
+      "original_title": "One Piece: Wan pîsu",
+      "year": 1999
+    },
+    {
+      "rank": 4,
+      "imdb_id": "tt1355642",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "original_title": "Hagane no renkinjutsushi",
+      "year": 2009
+    },
+    {
+      "rank": 5,
+      "imdb_id": "tt4508902",
+      "title": "One Punch Man",
+      "original_title": "One Punch Man: Wanpanman",
+      "year": 2015
+    },
+    {
+      "rank": 6,
+      "imdb_id": "tt0988824",
+      "title": "Naruto: Shippuden",
+      "original_title": "Naruto: Shippûden",
+      "year": 2007
+    },
+    {
+      "rank": 7,
+      "imdb_id": "tt9335498",
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "original_title": "Kimetsu no Yaiba",
+      "year": 2019
+    },
+    {
+      "rank": 8,
+      "imdb_id": "tt0214341",
+      "title": "Dragon Ball Z",
+      "original_title": "Dragon Ball Z",
+      "year": 1996
+    },
+    {
+      "rank": 9,
+      "imdb_id": "tt2098220",
+      "title": "Hunter X Hunter",
+      "original_title": "Hunter x Hunter",
+      "year": 2011
+    },
+    {
+      "rank": 10,
+      "imdb_id": "tt0213338",
+      "title": "Cowboy Bebop",
+      "original_title": "Kaubôi bibappu",
+      "year": 1998
+    },
+    {
+      "rank": 11,
+      "imdb_id": "tt12343534",
+      "title": "Jujutsu Kaisen",
+      "original_title": "Jujutsu Kaisen",
+      "year": 2020
+    },
+    {
+      "rank": 12,
+      "imdb_id": "tt0409591",
+      "title": "Naruto",
+      "original_title": "Naruto",
+      "year": 2002
+    },
+    {
+      "rank": 13,
+      "imdb_id": "tt12590266",
+      "title": "Cyberpunk: Edgerunners",
+      "original_title": "Cyberpunk: Edgerunners",
+      "year": 2022
+    },
+    {
+      "rank": 14,
+      "imdb_id": "tt10233448",
+      "title": "Vinland Saga",
+      "original_title": "Vinland Saga",
+      "year": 2019
+    },
+    {
+      "rank": 15,
+      "imdb_id": "tt0112159",
+      "title": "Neon Genesis Evangelion",
+      "original_title": "Shinseiki Evangelion",
+      "year": 1995
+    },
+    {
+      "rank": 16,
+      "imdb_id": "tt5626028",
+      "title": "My Hero Academia",
+      "original_title": "Boku no Hîrô Akademia",
+      "year": 2016
+    },
+    {
+      "rank": 17,
+      "imdb_id": "tt0994314",
+      "title": "Code Geass: Lelouch of the Rebellion",
+      "original_title": "Kôdo Giasu: Hangyaku no Rurûshu",
+      "year": 2006
+    },
+    {
+      "rank": 18,
+      "imdb_id": "tt1910272",
+      "title": "Steins; Gate",
+      "original_title": "Steins; Gate",
+      "year": 2011
+    },
+    {
+      "rank": 19,
+      "imdb_id": "tt0434665",
+      "title": "Bleach",
+      "original_title": "Bleach",
+      "year": 2004
+    },
+    {
+      "rank": 20,
+      "imdb_id": "tt13616990",
+      "title": "Chainsaw Man",
+      "original_title": "Chainsaw Man",
+      "year": 2022
+    },
+    {
+      "rank": 21,
+      "imdb_id": "tt21209876",
+      "title": "Solo Leveling",
+      "original_title": "Ore dake reberu appu na ken",
+      "year": 2024
+    },
+    {
+      "rank": 22,
+      "imdb_id": "tt3741634",
+      "title": "Tokyo Ghoul",
+      "original_title": "Tokyo Ghoul",
+      "year": 2014
+    },
+    {
+      "rank": 23,
+      "imdb_id": "tt0088509",
+      "title": "Dragon Ball",
+      "original_title": "Dragon Ball: Doragon bôru",
+      "year": 1986
+    },
+    {
+      "rank": 24,
+      "imdb_id": "tt5249462",
+      "title": "Erased",
+      "original_title": "Boku dake ga inai machi",
+      "year": 2016
+    },
+    {
+      "rank": 25,
+      "imdb_id": "tt0318871",
+      "title": "Berserk",
+      "original_title": "Kenpuu Denki Berserk",
+      "year": 1997
+    },
+    {
+      "rank": 26,
+      "imdb_id": "tt14986406",
+      "title": "Bleach: Thousand-Year Blood War",
+      "original_title": "Bleach: Sennen Kessen-hen",
+      "year": 2022
+    },
+    {
+      "rank": 27,
+      "imdb_id": "tt0423731",
+      "title": "Samurai Champloo",
+      "original_title": "Samurai Chanpurû",
+      "year": 2004
+    },
+    {
+      "rank": 28,
+      "imdb_id": "tt2250192",
+      "title": "Sword Art Online",
+      "original_title": "Sword Art Online",
+      "year": 2012
+    },
+    {
+      "rank": 29,
+      "imdb_id": "tt0434706",
+      "title": "Monster",
+      "original_title": "Monster",
+      "year": 2004
+    },
+    {
+      "rank": 30,
+      "imdb_id": "tt3358020",
+      "title": "Parasyte: The Maxim",
+      "original_title": "Kiseijû: Sei no kakuritsu",
+      "year": 2014
+    },
+    {
+      "rank": 31,
+      "imdb_id": "tt5897304",
+      "title": "Mob Psycho 100",
+      "original_title": "Mob Psycho 100",
+      "year": 2016
+    },
+    {
+      "rank": 32,
+      "imdb_id": "tt8788458",
+      "title": "The Promised Neverland",
+      "original_title": "Yakusoku no Neverland",
+      "year": 2019
+    },
+    {
+      "rank": 33,
+      "imdb_id": "tt0168366",
+      "title": "Pokémon",
+      "original_title": "Poketto monsutâ",
+      "year": 1997
+    },
+    {
+      "rank": 34,
+      "imdb_id": "tt13706018",
+      "title": "Spy x Family",
+      "original_title": "Supai Famirî",
+      "year": 2022
+    },
+    {
+      "rank": 35,
+      "imdb_id": "tt3398540",
+      "title": "Haikyuu!!",
+      "original_title": "Haikyû!!",
+      "year": 2014
+    },
+    {
+      "rank": 36,
+      "imdb_id": "tt3895150",
+      "title": "Your Lie in April",
+      "original_title": "Shigatsu wa kimi no uso",
+      "year": 2014
+    },
+    {
+      "rank": 37,
+      "imdb_id": "tt3909224",
+      "title": "The Seven Deadly Sins",
+      "original_title": "Nanatsu no taizai",
+      "year": 2014
+    },
+    {
+      "rank": 38,
+      "imdb_id": "tt2359704",
+      "title": "JoJo's Bizarre Adventure",
+      "original_title": "JoJo no Kimyô na Bôken",
+      "year": 2012
+    },
+    {
+      "rank": 39,
+      "imdb_id": "tt7441658",
+      "title": "Black Clover",
+      "original_title": "Black Clover",
+      "year": 2017
+    },
+    {
+      "rank": 40,
+      "imdb_id": "tt4644488",
+      "title": "Dragon Ball Super",
+      "original_title": "Dragon Ball Super: Doragon bôru cho",
+      "year": 2015
+    },
+    {
+      "rank": 41,
+      "imdb_id": "tt22248376",
+      "title": "Frieren: Beyond Journey's End",
+      "original_title": "Sôsô no Furîren",
+      "year": 2023
+    },
+    {
+      "rank": 42,
+      "imdb_id": "tt0480489",
+      "title": "Elfen Lied",
+      "original_title": "Erufen rîto",
+      "year": 2004
+    },
+    {
+      "rank": 43,
+      "imdb_id": "tt7078180",
+      "title": "Violet Evergarden",
+      "original_title": "Violet Evergarden",
+      "year": 2018
+    },
+    {
+      "rank": 44,
+      "imdb_id": "tt9679542",
+      "title": "Dr. Stone",
+      "original_title": "Dr.STONE",
+      "year": 2019
+    },
+    {
+      "rank": 45,
+      "imdb_id": "tt3742982",
+      "title": "Akame ga Kill!",
+      "original_title": "Akame ga Kill!",
+      "year": 2014
+    },
+    {
+      "rank": 46,
+      "imdb_id": "tt5607616",
+      "title": "Re: Zero - Starting Life in Another World",
+      "original_title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+      "year": 2016
+    },
+    {
+      "rank": 47,
+      "imdb_id": "tt30217403",
+      "title": "Dandadan",
+      "original_title": "Dandadan",
+      "year": 2024
+    },
+    {
+      "rank": 48,
+      "imdb_id": "tt6660498",
+      "title": "Devilman: Crybaby",
+      "original_title": "Devilman: Crybaby",
+      "year": 2018
+    },
+    {
+      "rank": 49,
+      "imdb_id": "tt6342474",
+      "title": "Boruto: Naruto Next Generations",
+      "original_title": "Boruto Naruto Nekusuto Jenerêshonzu",
+      "year": 2017
+    },
+    {
+      "rank": 50,
+      "imdb_id": "tt1528406",
+      "title": "Fairy Tail",
+      "original_title": "Fairy Tail",
+      "year": 2009
+    },
+    {
+      "rank": 51,
+      "imdb_id": "tt0495212",
+      "title": "Hellsing Ultimate",
+      "original_title": "Hellsing Ultimate",
+      "year": 2006
+    },
+    {
+      "rank": 52,
+      "imdb_id": "tt13196080",
+      "title": "Tokyo Revengers",
+      "original_title": "Tôkyô Ribenjâzu",
+      "year": 2021
+    },
+    {
+      "rank": 53,
+      "imdb_id": "tt13293588",
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "original_title": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+      "year": 2021
+    },
+    {
+      "rank": 54,
+      "imdb_id": "tt1409055",
+      "title": "Dragon Ball Z Kai",
+      "original_title": "Dragon Ball Kai: Doragon bôru kai",
+      "year": 2009
+    },
+    {
+      "rank": 55,
+      "imdb_id": "tt15222080",
+      "title": "Blue Lock",
+      "original_title": "Burû Rokku",
+      "year": 2022
+    },
+    {
+      "rank": 56,
+      "imdb_id": "tt13622982",
+      "title": "Star Wars: Visions",
+      "original_title": "Star Wars: Visions",
+      "year": 2021
+    },
+    {
+      "rank": 57,
+      "imdb_id": "tt0251439",
+      "title": "Trigun",
+      "original_title": "Trigun",
+      "year": 1998
+    },
+    {
+      "rank": 58,
+      "imdb_id": "tt0249327",
+      "title": "Yu-Gi-Oh!",
+      "original_title": "Yu-Gi-Oh",
+      "year": 2000
+    },
+    {
+      "rank": 59,
+      "imdb_id": "tt0210418",
+      "title": "Digimon Adventure",
+      "original_title": "Dejimon adobenchâ",
+      "year": 1999
+    },
+    {
+      "rank": 60,
+      "imdb_id": "tt2379308",
+      "title": "Psycho-Pass",
+      "original_title": "Psycho-Pass",
+      "year": 2012
+    },
+    {
+      "rank": 61,
+      "imdb_id": "tt3837246",
+      "title": "Assassination Classroom",
+      "original_title": "Ansatsu kyôshitsu",
+      "year": 2013
+    },
+    {
+      "rank": 62,
+      "imdb_id": "tt9458304",
+      "title": "Dororo",
+      "original_title": "Dororo",
+      "year": 2019
+    },
+    {
+      "rank": 63,
+      "imdb_id": "tt9522300",
+      "title": "Kaguya-sama: Love Is War",
+      "original_title": "Kaguya-sama wa kokurasetai ~ Tensai tachi no ren'ai zunô sen ~",
+      "year": 2019
+    },
+    {
+      "rank": 64,
+      "imdb_id": "tt0948103",
+      "title": "Gurren Lagann",
+      "original_title": "Tengen toppa gurren lagann",
+      "year": 2007
+    },
+    {
+      "rank": 65,
+      "imdb_id": "tt4279012",
+      "title": "Death Parade",
+      "original_title": "Death Parade",
+      "year": 2015
+    },
+    {
+      "rank": 66,
+      "imdb_id": "tt0346314",
+      "title": "Ghost in the Shell: Stand Alone Complex",
+      "original_title": "Kôkaku Kidôtai Sutando Arôn Conpurekkusu",
+      "year": 2002
+    },
+    {
+      "rank": 67,
+      "imdb_id": "tt2069441",
+      "title": "The Future Diary",
+      "original_title": "Mirai nikki",
+      "year": 2011
+    },
+    {
+      "rank": 68,
+      "imdb_id": "tt0182629",
+      "title": "Rurouni Kenshin",
+      "original_title": "Rurôni Kenshin: Meiji kenkaku romantan",
+      "year": 1996
+    },
+    {
+      "rank": 69,
+      "imdb_id": "tt0279077",
+      "title": "FLCL",
+      "original_title": "FLCL",
+      "year": 2000
+    },
+    {
+      "rank": 70,
+      "imdb_id": "tt3225270",
+      "title": "Noragami",
+      "original_title": "Noragami",
+      "year": 2014
+    },
+    {
+      "rank": 71,
+      "imdb_id": "tt1279024",
+      "title": "Toradora!",
+      "original_title": "Toradora!",
+      "year": 2008
+    },
+    {
+      "rank": 72,
+      "imdb_id": "tt3431758",
+      "title": "No Game, No Life",
+      "original_title": "No Game, No Life",
+      "year": 2014
+    },
+    {
+      "rank": 73,
+      "imdb_id": "tt2176165",
+      "title": "Another",
+      "original_title": "Anazâ",
+      "year": 2012
+    },
+    {
+      "rank": 74,
+      "imdb_id": "tt8993398",
+      "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "original_title": "Seishun buta yaro wa Bunny Girl-senpai no yume wo minai",
+      "year": 2018
+    },
+    {
+      "rank": 75,
+      "imdb_id": "tt9529546",
+      "title": "The Rising of the Shield Hero",
+      "original_title": "Tate no Yuusha no Nariagari",
+      "year": 2019
+    },
+    {
+      "rank": 76,
+      "imdb_id": "tt21975436",
+      "title": "Kaiju No. 8",
+      "original_title": "Kaiju No. 8",
+      "year": 2024
+    },
+    {
+      "rank": 77,
+      "imdb_id": "tt0962826",
+      "title": "Black Lagoon",
+      "original_title": "Black Lagoon",
+      "year": 2006
+    },
+    {
+      "rank": 78,
+      "imdb_id": "tt0500092",
+      "title": "Serial Experiments Lain",
+      "original_title": "Serial Experiments Lain",
+      "year": 1998
+    },
+    {
+      "rank": 79,
+      "imdb_id": "tt13911284",
+      "title": "Hell's Paradise",
+      "original_title": "Jigokuraku",
+      "year": 2023
+    },
+    {
+      "rank": 80,
+      "imdb_id": "tt0290223",
+      "title": "Inuyasha",
+      "original_title": "Inuyasha",
+      "year": 2000
+    },
+    {
+      "rank": 81,
+      "imdb_id": "tt13103134",
+      "title": "Horimiya",
+      "original_title": "Hori-san to Miyamura-kun",
+      "year": 2021
+    },
+    {
+      "rank": 82,
+      "imdb_id": "tt9054364",
+      "title": "That Time I Got Reincarnated as a Slime",
+      "original_title": "Tensei Shitara Suraimu Datta Ken",
+      "year": 2018
+    },
+    {
+      "rank": 83,
+      "imdb_id": "tt5497534",
+      "title": "Tokyo Ghoul: Root A",
+      "original_title": "Tokyo Ghoul: Root A",
+      "year": 2015
+    },
+    {
+      "rank": 84,
+      "imdb_id": "tt3114390",
+      "title": "Kill La Kill",
+      "original_title": "Kiru ra kiru: KILL la KILL",
+      "year": 2013
+    },
+    {
+      "rank": 85,
+      "imdb_id": "tt0988818",
+      "title": "Gintama",
+      "original_title": "Gintama",
+      "year": 2005
+    },
+    {
+      "rank": 86,
+      "imdb_id": "tt15765670",
+      "title": "My Dress-Up Darling",
+      "original_title": "Sono bisuku dôru wa koi o suru",
+      "year": 2022
+    },
+    {
+      "rank": 87,
+      "imdb_id": "tt7222086",
+      "title": "Made in Abyss",
+      "original_title": "Made in Abyss",
+      "year": 2017
+    },
+    {
+      "rank": 88,
+      "imdb_id": "tt5370118",
+      "title": "Konosuba: God's Blessing on This Wonderful World!",
+      "original_title": "Kono subarashii sekai ni shukufuku o!",
+      "year": 2016
+    },
+    {
+      "rank": 89,
+      "imdb_id": "tt7263328",
+      "title": "Classroom of the Elite",
+      "original_title": "Yôkoso jitsuryoku shijô shugi no kyôshitsu e",
+      "year": 2017
+    },
+    {
+      "rank": 90,
+      "imdb_id": "tt0791205",
+      "title": "Ergo Proxy",
+      "original_title": "Ergo Proxy",
+      "year": 2006
+    },
+    {
+      "rank": 91,
+      "imdb_id": "tt0185133",
+      "title": "Yu Yu Hakusho: Ghost Files",
+      "original_title": "Yu yu hakusho",
+      "year": 1992
+    },
+    {
+      "rank": 92,
+      "imdb_id": "tt1639109",
+      "title": "Angel Beats!",
+      "original_title": "Angel Beats!",
+      "year": 2010
+    },
+    {
+      "rank": 93,
+      "imdb_id": "tt1913273",
+      "title": "Anohana: The Flower We Saw That Day",
+      "original_title": "Ano hi mita hana no namae o bokutachi wa mada shiranai.",
+      "year": 2011
+    },
+    {
+      "rank": 94,
+      "imdb_id": "tt1685401",
+      "title": "Highschool of the Dead",
+      "original_title": "Gakuen mokushiroku: HIGHSCHOOL OF THE DEAD",
+      "year": 2010
+    },
+    {
+      "rank": 95,
+      "imdb_id": "tt26737616",
+      "title": "Pluto",
+      "original_title": "Pluto",
+      "year": 2023
+    },
+    {
+      "rank": 96,
+      "imdb_id": "tt0131179",
+      "title": "Detective Conan",
+      "original_title": "Meitantei Conan",
+      "year": 1996
+    },
+    {
+      "rank": 97,
+      "imdb_id": "tt0985344",
+      "title": "Claymore",
+      "original_title": "Kureimoa",
+      "year": 2007
+    },
+    {
+      "rank": 98,
+      "imdb_id": "tt1799631",
+      "title": "Blue Exorcist",
+      "original_title": "Ao no ekusoshisuto",
+      "year": 2011
+    },
+    {
+      "rank": 99,
+      "imdb_id": "tt2051178",
+      "title": "Fate/Zero",
+      "original_title": "Fate/Zero",
+      "year": 2011
+    },
+    {
+      "rank": 100,
+      "imdb_id": "tt1118804",
+      "title": "Clannad",
+      "original_title": "Kuranado",
+      "year": 2007
+    },
+    {
+      "rank": 101,
+      "imdb_id": "tt4869896",
+      "title": "Overlord",
+      "original_title": "Ôbârôdo",
+      "year": 2015
+    },
+    {
+      "rank": 102,
+      "imdb_id": "tt7865090",
+      "title": "Darling in the Franxx",
+      "original_title": "Darling in the Franxx",
+      "year": 2018
+    },
+    {
+      "rank": 103,
+      "imdb_id": "tt0807832",
+      "title": "Mushi-Shi",
+      "original_title": "Mushishi",
+      "year": 2005
+    },
+    {
+      "rank": 104,
+      "imdb_id": "tt1214085",
+      "title": "Soul Eater",
+      "original_title": "Sôru îtâ",
+      "year": 2008
+    },
+    {
+      "rank": 105,
+      "imdb_id": "tt0433722",
+      "title": "Paranoia Agent",
+      "original_title": "Môsô dairinin",
+      "year": 2004
+    },
+    {
+      "rank": 106,
+      "imdb_id": "tt3613454",
+      "title": "Terror in Resonance",
+      "original_title": "Zankyô no teroru",
+      "year": 2014
+    },
+    {
+      "rank": 107,
+      "imdb_id": "tt2230051",
+      "title": "High School DxD",
+      "original_title": "High School DxD",
+      "year": 2012
+    },
+    {
+      "rank": 108,
+      "imdb_id": "tt7131720",
+      "title": "Kakegurui",
+      "original_title": "Kakegurui",
+      "year": 2017
+    },
+    {
+      "rank": 109,
+      "imdb_id": "tt4731072",
+      "title": "Food Wars: Shokugeki no Soma",
+      "original_title": "Shokugeki no Soma",
+      "year": 2015
+    },
+    {
+      "rank": 110,
+      "imdb_id": "tt13409432",
+      "title": "Ranking of Kings",
+      "original_title": "Ousama Ranking",
+      "year": 2021
+    },
+    {
+      "rank": 111,
+      "imdb_id": "tt9307686",
+      "title": "Fire Force",
+      "original_title": "Enen no Shôbôtai",
+      "year": 2019
+    },
+    {
+      "rank": 112,
+      "imdb_id": "tt0481256",
+      "title": "Fighting Spirit",
+      "original_title": "Hajime no Ippo",
+      "year": 2000
+    },
+    {
+      "rank": 113,
+      "imdb_id": "tt11043632",
+      "title": "Beastars",
+      "original_title": "Beastars",
+      "year": 2019
+    },
+    {
+      "rank": 114,
+      "imdb_id": "tt26743760",
+      "title": "The Apothecary Diaries",
+      "original_title": "Kusuriya no Hitorigoto",
+      "year": 2023
+    },
+    {
+      "rank": 115,
+      "imdb_id": "tt0114327",
+      "title": "Sailor Moon",
+      "original_title": "Sailor Moon",
+      "year": 1995
+    },
+    {
+      "rank": 116,
+      "imdb_id": "tt1334722",
+      "title": "Baccano!",
+      "original_title": "Baccano!",
+      "year": 2007
+    },
+    {
+      "rank": 117,
+      "imdb_id": "tt0995941",
+      "title": "Darker Than Black",
+      "original_title": "Darker Than Black: Kuro no keiyakusha",
+      "year": 2007
+    },
+    {
+      "rank": 118,
+      "imdb_id": "tt8213522",
+      "title": "Tokyo Ghoul: Re",
+      "original_title": "Tokyo Ghoul: re",
+      "year": 2018
+    },
+    {
+      "rank": 119,
+      "imdb_id": "tt1909447",
+      "title": "Deadman Wonderland",
+      "original_title": "Deadman Wonderland",
+      "year": 2011
+    },
+    {
+      "rank": 120,
+      "imdb_id": "tt2348803",
+      "title": "Kuroko's Basketball",
+      "original_title": "Kuroko No Basket",
+      "year": 2012
+    },
+    {
+      "rank": 121,
+      "imdb_id": "tt11147852",
+      "title": "Dorohedoro",
+      "original_title": "Dorohedoro",
+      "year": 2020
+    },
+    {
+      "rank": 122,
+      "imdb_id": "tt5514358",
+      "title": "Steins;Gate 0",
+      "original_title": "Steins;Gate 0",
+      "year": 2018
+    },
+    {
+      "rank": 123,
+      "imdb_id": "tt0315008",
+      "title": "Great Teacher Onizuka",
+      "original_title": "GTO",
+      "year": 1999
+    },
+    {
+      "rank": 124,
+      "imdb_id": "tt0816397",
+      "title": "Ouran High School Host Club",
+      "original_title": "Ôran kôkô hosutobu",
+      "year": 2006
+    },
+    {
+      "rank": 125,
+      "imdb_id": "tt6354518",
+      "title": "The Disastrous Life of Saiki K.",
+      "original_title": "Saiki Kusuo no Psi Nan",
+      "year": 2016
+    },
+    {
+      "rank": 126,
+      "imdb_id": "tt1773185",
+      "title": "Puella Magi Madoka Magica",
+      "original_title": "Mahô shôjo Madoka magika: Puella Magi Madoka Magica",
+      "year": 2011
+    },
+    {
+      "rank": 127,
+      "imdb_id": "tt0161952",
+      "title": "Saint Seiya",
+      "original_title": "Saint Seiya",
+      "year": 1986
+    },
+    {
+      "rank": 128,
+      "imdb_id": "tt21030032",
+      "title": "Oshi No Ko",
+      "original_title": "Oshi no Ko",
+      "year": 2023
+    },
+    {
+      "rank": 129,
+      "imdb_id": "tt21209804",
+      "title": "Mashle: Magic and Muscles",
+      "original_title": "Mashle: Magic and Muscles",
+      "year": 2023
+    },
+    {
+      "rank": 130,
+      "imdb_id": "tt4728568",
+      "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+      "original_title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+      "year": 2015
+    },
+    {
+      "rank": 131,
+      "imdb_id": "tt14153236",
+      "title": "Terminator Zero",
+      "original_title": "Terminator Zero",
+      "year": 2024
+    },
+    {
+      "rank": 132,
+      "imdb_id": "tt5679720",
+      "title": "Bungo Stray Dogs",
+      "original_title": "Bungou Stray Dogs",
+      "year": 2016
+    },
+    {
+      "rank": 133,
+      "imdb_id": "tt8690728",
+      "title": "Goblin Slayer",
+      "original_title": "Goblin Slayer",
+      "year": 2018
+    },
+    {
+      "rank": 134,
+      "imdb_id": "tt6112556",
+      "title": "Yuri!!! On Ice",
+      "original_title": "Yuri!!! On Ice",
+      "year": 2016
+    },
+    {
+      "rank": 135,
+      "imdb_id": "tt12063450",
+      "title": "To Your Eternity",
+      "original_title": "Fumetsu no Anata e",
+      "year": 2021
+    },
+    {
+      "rank": 136,
+      "imdb_id": "tt9304350",
+      "title": "Fruits Basket",
+      "original_title": "Furûtsu Basuketto",
+      "year": 2019
+    },
+    {
+      "rank": 137,
+      "imdb_id": "tt14626352",
+      "title": "Komi Can't Communicate",
+      "original_title": "Komi-san wa, Komyushou Desu.",
+      "year": 2021
+    },
+    {
+      "rank": 138,
+      "imdb_id": "tt25811262",
+      "title": "Zom 100: Bucket List of the Dead",
+      "original_title": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
+      "year": 2023
+    },
+    {
+      "rank": 139,
+      "imdb_id": "tt2703720",
+      "title": "My Teen Romantic Comedy SNAFU",
+      "original_title": "Yahari ore no seishun rabukome wa machigatteiru.",
+      "year": 2013
+    },
+    {
+      "rank": 140,
+      "imdb_id": "tt13718450",
+      "title": "86",
+      "original_title": "86",
+      "year": 2021
+    },
+    {
+      "rank": 141,
+      "imdb_id": "tt21621494",
+      "title": "Delicious in Dungeon",
+      "original_title": "Danjon meshi",
+      "year": 2024
+    },
+    {
+      "rank": 142,
+      "imdb_id": "tt8515016",
+      "title": "Banana Fish",
+      "original_title": "Banana Fish",
+      "year": 2018
+    },
+    {
+      "rank": 143,
+      "imdb_id": "tt1316554",
+      "title": "Black Butler",
+      "original_title": "Kuroshitsuji",
+      "year": 2008
+    },
+    {
+      "rank": 144,
+      "imdb_id": "tt14115938",
+      "title": "The Eminence in Shadow",
+      "original_title": "Kage no Jitsuryokusha ni Naritakute!",
+      "year": 2022
+    },
+    {
+      "rank": 145,
+      "imdb_id": "tt6357658",
+      "title": "Baki",
+      "original_title": "Baki",
+      "year": 2016
+    },
+    {
+      "rank": 146,
+      "imdb_id": "tt13676344",
+      "title": "Record of Ragnarok",
+      "original_title": "Shûmatsu no Valkyrie",
+      "year": 2021
+    },
+    {
+      "rank": 147,
+      "imdb_id": "tt12057106",
+      "title": "Tower of God",
+      "original_title": "Kami no Tou",
+      "year": 2020
+    },
+    {
+      "rank": 148,
+      "imdb_id": "tt1634208",
+      "title": "Maid Sama!",
+      "original_title": "Kaichou wa meido-sama!",
+      "year": 2010
+    },
+    {
+      "rank": 149,
+      "imdb_id": "tt3621796",
+      "title": "Fate/stay night [Unlimited Blade Works]",
+      "original_title": "Fate/stay night: Unlimited Blade Works",
+      "year": 2014
+    },
+    {
+      "rank": 150,
+      "imdb_id": "tt0816407",
+      "title": "The Melancholy of Haruhi Suzumiya",
+      "original_title": "Suzumiya Haruhi no yûutsu",
+      "year": 2006
+    },
+    {
+      "rank": 151,
+      "imdb_id": "tt11448214",
+      "title": "Rent-a-Girlfriend",
+      "original_title": "Kanojo, Okarishimasu",
+      "year": 2020
+    },
+    {
+      "rank": 152,
+      "imdb_id": "tt4574736",
+      "title": "Charlotte",
+      "original_title": "Charlotte",
+      "year": 2015
+    },
+    {
+      "rank": 153,
+      "imdb_id": "tt2622982",
+      "title": "The Devil Is a Part-Timer!",
+      "original_title": "Hataraku Maou-sama!",
+      "year": 2013
+    },
+    {
+      "rank": 154,
+      "imdb_id": "tt0434685",
+      "title": "Gantz",
+      "original_title": "Gantz",
+      "year": 2004
+    },
+    {
+      "rank": 155,
+      "imdb_id": "tt22817632",
+      "title": "Heavenly Delusion",
+      "original_title": "Tengoku daimakyô",
+      "year": 2023
+    },
+    {
+      "rank": 156,
+      "imdb_id": "tt0857297",
+      "title": "Welcome to the N.H.K.",
+      "original_title": "N.H.K ni yôkoso!",
+      "year": 2006
+    },
+    {
+      "rank": 157,
+      "imdb_id": "tt12227418",
+      "title": "The God of High School",
+      "original_title": "The God of High School",
+      "year": 2020
+    },
+    {
+      "rank": 158,
+      "imdb_id": "tt4917066",
+      "title": "Prison School",
+      "original_title": "Kangoku gakuen",
+      "year": 2015
+    },
+    {
+      "rank": 159,
+      "imdb_id": "tt9584920",
+      "title": "The Quintessential Quintuplets",
+      "original_title": "Go-Toubun no Hanayome",
+      "year": 2019
+    },
+    {
+      "rank": 160,
+      "imdb_id": "tt0367439",
+      "title": "Wolf's Rain",
+      "original_title": "Wolf's Rain",
+      "year": 2003
+    },
+    {
+      "rank": 161,
+      "imdb_id": "tt0294023",
+      "title": "Captain Tsubasa",
+      "original_title": "Kyaputen Tsubasa",
+      "year": 1983
+    },
+    {
+      "rank": 162,
+      "imdb_id": "tt0965547",
+      "title": "Slam Dunk",
+      "original_title": "Suramu Danku",
+      "year": 1993
+    },
+    {
+      "rank": 163,
+      "imdb_id": "tt1584000",
+      "title": "Durarara!!",
+      "original_title": "Durarara!!",
+      "year": 2010
+    },
+    {
+      "rank": 164,
+      "imdb_id": "tt9058134",
+      "title": "Kengan Ashura",
+      "original_title": "Kengan Ashura",
+      "year": 2019
+    },
+    {
+      "rank": 165,
+      "imdb_id": "tt0159145",
+      "title": "Golden Boy",
+      "original_title": "Golden Boy: Sasurai no obenkyô yarô",
+      "year": 1995
+    },
+    {
+      "rank": 166,
+      "imdb_id": "tt15686254",
+      "title": "Summer Time Rendering",
+      "original_title": "Summer Time Render",
+      "year": 2022
+    },
+    {
+      "rank": 167,
+      "imdb_id": "tt4584326",
+      "title": "Seraph of the End",
+      "original_title": "Owari No Seraph",
+      "year": 2015
+    },
+    {
+      "rank": 168,
+      "imdb_id": "tt8019444",
+      "title": "Aggretsuko",
+      "original_title": "Aggretsuko",
+      "year": 2018
+    },
+    {
+      "rank": 169,
+      "imdb_id": "tt28480255",
+      "title": "Ninja Kamui",
+      "original_title": "Ninja Kamui",
+      "year": 2024
+    },
+    {
+      "rank": 170,
+      "imdb_id": "tt5857720",
+      "title": "ReLIFE",
+      "original_title": "ReLIFE",
+      "year": 2016
+    },
+    {
+      "rank": 171,
+      "imdb_id": "tt11680468",
+      "title": "Great Pretender",
+      "original_title": "Great Pretender",
+      "year": 2020
+    },
+    {
+      "rank": 172,
+      "imdb_id": "tt5537534",
+      "title": "Ajin",
+      "original_title": "Ajin",
+      "year": 2016
+    },
+    {
+      "rank": 173,
+      "imdb_id": "tt0328733",
+      "title": "Beyblade",
+      "original_title": "Bakuten shoot beyblade",
+      "year": 2001
+    },
+    {
+      "rank": 174,
+      "imdb_id": "tt0810705",
+      "title": "Nana",
+      "original_title": "Nana",
+      "year": 2006
+    },
+    {
+      "rank": 175,
+      "imdb_id": "tt10905902",
+      "title": "Uzumaki",
+      "original_title": "Uzumaki",
+      "year": 2024
+    },
+    {
+      "rank": 176,
+      "imdb_id": "tt1480925",
+      "title": "Bakemonogatari",
+      "original_title": "Bakemonogatari",
+      "year": 2009
+    },
+    {
+      "rank": 177,
+      "imdb_id": "tt5556656",
+      "title": "Kabaneri of the Iron Fortress",
+      "original_title": "Kôtetsujô no Kabaneri",
+      "year": 2016
+    },
+    {
+      "rank": 178,
+      "imdb_id": "tt3592708",
+      "title": "Blue Spring Ride",
+      "original_title": "Ao Haru Ride",
+      "year": 2014
+    },
+    {
+      "rank": 179,
+      "imdb_id": "tt19869172",
+      "title": "My Happy Marriage",
+      "original_title": "Watashi no Shiawase na Kekkon",
+      "year": 2023
+    },
+    {
+      "rank": 180,
+      "imdb_id": "tt0845738",
+      "title": "When They Cry",
+      "original_title": "Higurashi no naku koro ni",
+      "year": 2006
+    },
+    {
+      "rank": 181,
+      "imdb_id": "tt0774809",
+      "title": "Fate/stay night",
+      "original_title": "Fate/stay night",
+      "year": 2006
+    },
+    {
+      "rank": 182,
+      "imdb_id": "tt0367409",
+      "title": "Shaman King",
+      "original_title": "Shâman Kingu",
+      "year": 2001
+    },
+    {
+      "rank": 183,
+      "imdb_id": "tt2340841",
+      "title": "Hyouka",
+      "original_title": "Hyouka",
+      "year": 2012
+    },
+    {
+      "rank": 184,
+      "imdb_id": "tt1745240",
+      "title": "Kimi Ni Todoke: From Me to You",
+      "original_title": "Kimi ni todoke",
+      "year": 2009
+    },
+    {
+      "rank": 185,
+      "imdb_id": "tt13357124",
+      "title": "The Way of the Househusband",
+      "original_title": "Gokushufudo",
+      "year": 2021
+    },
+    {
+      "rank": 186,
+      "imdb_id": "tt14134550",
+      "title": "Odd Taxi",
+      "original_title": "Odd Taxi",
+      "year": 2021
+    },
+    {
+      "rank": 187,
+      "imdb_id": "tt9310330",
+      "title": "Yasuke",
+      "original_title": "Yasuke",
+      "year": 2021
+    },
+    {
+      "rank": 188,
+      "imdb_id": "tt17158756",
+      "title": "Bocchi the Rock!",
+      "original_title": "Bocchi the Rock!",
+      "year": 2022
+    },
+    {
+      "rank": 189,
+      "imdb_id": "tt13370404",
+      "title": "Redo of Healer",
+      "original_title": "Kaifuku Jutsushi no Yarinaoshi",
+      "year": 2021
+    },
+    {
+      "rank": 190,
+      "imdb_id": "tt1048049",
+      "title": "Devil May Cry: The Animated Series",
+      "original_title": "Devil May Cry: Debiru mei kurai",
+      "year": 2007
+    },
+    {
+      "rank": 191,
+      "imdb_id": "tt5839706",
+      "title": "91 Days",
+      "original_title": "91 Days",
+      "year": 2016
+    },
+    {
+      "rank": 192,
+      "imdb_id": "tt0367413",
+      "title": "Sonic X",
+      "original_title": "Sonic X",
+      "year": 2003
+    },
+    {
+      "rank": 193,
+      "imdb_id": "tt0070968",
+      "title": "Heidi, Girl of the Alps",
+      "original_title": "Arupusu no shôjo Haiji",
+      "year": 1974
+    },
+    {
+      "rank": 194,
+      "imdb_id": "tt0096686",
+      "title": "Ranma ½",
+      "original_title": "Ranma ½",
+      "year": 1989
+    },
+    {
+      "rank": 195,
+      "imdb_id": "tt0328739",
+      "title": "Full Metal Panic!",
+      "original_title": "Full Metal Panic!",
+      "year": 2002
+    },
+    {
+      "rank": 196,
+      "imdb_id": "tt0107061",
+      "title": "Battle Angel",
+      "original_title": "Ganmu",
+      "year": 1993
+    },
+    {
+      "rank": 197,
+      "imdb_id": "tt2122656",
+      "title": "Guilty Crown",
+      "original_title": "Guilty Crown",
+      "year": 2011
+    },
+    {
+      "rank": 198,
+      "imdb_id": "tt12432936",
+      "title": "The Misfit of Demon King Academy",
+      "original_title": "Maô Gakuin no Futekigôsha ~Shijô Saikyô no Maô no Shiso, Tensei Shite Shison-tachi no Gakkô e Kayô~",
+      "year": 2020
+    },
+    {
+      "rank": 199,
+      "imdb_id": "tt2320220",
+      "title": "Kamisama Kiss",
+      "original_title": "Kamisama hajimemashita",
+      "year": 2012
+    },
+    {
+      "rank": 200,
+      "imdb_id": "tt0096633",
+      "title": "Legend of the Galactic Heroes",
+      "original_title": "Ginga Eiyuu Densetsu",
+      "year": 1988
+    },
+    {
+      "rank": 201,
+      "imdb_id": "tt1209393",
+      "title": "Vampire Knight",
+      "original_title": "Vanpaia naito",
+      "year": 2008
+    },
+    {
+      "rank": 202,
+      "imdb_id": "tt0221735",
+      "title": "Cardcaptor Sakura",
+      "original_title": "Kadokyaputa Sakura",
+      "year": 1998
+    },
+    {
+      "rank": 203,
+      "imdb_id": "tt7944664",
+      "title": "B: The Beginning",
+      "original_title": "B: The Beginning",
+      "year": 2018
+    },
+    {
+      "rank": 204,
+      "imdb_id": "tt6340502",
+      "title": "Inuyashiki",
+      "original_title": "Inuyashiki",
+      "year": 2017
+    },
+    {
+      "rank": 205,
+      "imdb_id": "tt6185782",
+      "title": "Miss Kobayashi's Dragon Maid",
+      "original_title": "Kobayashi-san Chi no Meidoragon",
+      "year": 2017
+    },
+    {
+      "rank": 206,
+      "imdb_id": "tt0246734",
+      "title": "Kite",
+      "original_title": "A kaito",
+      "year": 1998
+    },
+    {
+      "rank": 207,
+      "imdb_id": "tt10479420",
+      "title": "Given",
+      "original_title": "Given",
+      "year": 2019
+    },
+    {
+      "rank": 208,
+      "imdb_id": "tt3957196",
+      "title": "Yona of the Dawn",
+      "original_title": "Akatsuki no Yona",
+      "year": 2014
+    },
+    {
+      "rank": 209,
+      "imdb_id": "tt29605391",
+      "title": "Wind Breaker",
+      "original_title": "Wind Breaker",
+      "year": 2024
+    },
+    {
+      "rank": 210,
+      "imdb_id": "tt2296348",
+      "title": "The Pet Girl of Sakurasou",
+      "original_title": "Sakurasou no Pet na Kanojo",
+      "year": 2012
+    },
+    {
+      "rank": 211,
+      "imdb_id": "tt2309302",
+      "title": "My Little Monster",
+      "original_title": "Tonari no kaibutsu-kun",
+      "year": 2012
+    },
+    {
+      "rank": 212,
+      "imdb_id": "tt0493334",
+      "title": "Yu-Gi-Oh! GX",
+      "original_title": "Yu-Gi-Oh! GX",
+      "year": 2004
+    },
+    {
+      "rank": 213,
+      "imdb_id": "tt0069576",
+      "title": "Doraemon",
+      "original_title": "Doraemon",
+      "year": 1979
+    },
+    {
+      "rank": 214,
+      "imdb_id": "tt13129190",
+      "title": "SK8 the Infinity",
+      "original_title": "SK8",
+      "year": 2021
+    },
+    {
+      "rank": 215,
+      "imdb_id": "tt12635162",
+      "title": "Don't Toy with Me, Miss Nagatoro",
+      "original_title": "Ijiranaide, Nagatoro-san",
+      "year": 2021
+    },
+    {
+      "rank": 216,
+      "imdb_id": "tt2321542",
+      "title": "Love, Chunibyo & Other Delusions",
+      "original_title": "Chuunibyou demo koi ga shitai!",
+      "year": 2012
+    },
+    {
+      "rank": 217,
+      "imdb_id": "tt0435961",
+      "title": "Gungrave",
+      "original_title": "Gangureivu",
+      "year": 2003
+    },
+    {
+      "rank": 218,
+      "imdb_id": "tt1158671",
+      "title": "Spice and Wolf",
+      "original_title": "Ôkami to kôshinryô",
+      "year": 2008
+    },
+    {
+      "rank": 219,
+      "imdb_id": "tt19875850",
+      "title": "Tekken: Bloodline",
+      "original_title": "Tekken: Bloodline",
+      "year": 2022
+    },
+    {
+      "rank": 220,
+      "imdb_id": "tt0077013",
+      "title": "Future Boy Conan",
+      "original_title": "Mirai shônen Konan",
+      "year": 1978
+    },
+    {
+      "rank": 221,
+      "imdb_id": "tt1847445",
+      "title": "The Tatami Galaxy",
+      "original_title": "Yojôhan shinwa taikei",
+      "year": 2010
+    },
+    {
+      "rank": 222,
+      "imdb_id": "tt3592032",
+      "title": "Ping Pong the Animation",
+      "original_title": "Ping Pong the Animation",
+      "year": 2014
+    },
+    {
+      "rank": 223,
+      "imdb_id": "tt3105452",
+      "title": "Golden Time",
+      "original_title": "Gôruden taimu",
+      "year": 2013
+    },
+    {
+      "rank": 224,
+      "imdb_id": "tt13357140",
+      "title": "Baki Hanma",
+      "original_title": "Hanma Baki",
+      "year": 2021
+    },
+    {
+      "rank": 225,
+      "imdb_id": "tt5839732",
+      "title": "Orange",
+      "original_title": "Orange",
+      "year": 2016
+    },
+    {
+      "rank": 226,
+      "imdb_id": "tt12311976",
+      "title": "TONIKAWA: Over the Moon for You",
+      "original_title": "Tonikaku Kawaii",
+      "year": 2020
+    },
+    {
+      "rank": 227,
+      "imdb_id": "tt10431290",
+      "title": "Arifureta: From Commonplace to World's Strongest",
+      "original_title": "Arifureta Shokugyou de Sekai Saikyou",
+      "year": 2019
+    },
+    {
+      "rank": 228,
+      "imdb_id": "tt8254880",
+      "title": "Wotakoi: Love Is Hard for Otaku",
+      "original_title": "Wotaku ni Koi wa Muzukashii",
+      "year": 2018
+    },
+    {
+      "rank": 229,
+      "imdb_id": "tt2425098",
+      "title": "Magi: The Labyrinth of Magic",
+      "original_title": "Magi: The Labyrinth of Magic",
+      "year": 2012
+    },
+    {
+      "rank": 230,
+      "imdb_id": "tt8438524",
+      "title": "How NOT to Summon a Demon Lord",
+      "original_title": "Isekai Mao to Shokan Shojo no Dorei Majutsu",
+      "year": 2018
+    },
+    {
+      "rank": 231,
+      "imdb_id": "tt5100366",
+      "title": "Chivalry of a Failed Knight",
+      "original_title": "Rakudai Kishi no Cavalry",
+      "year": 2015
+    },
+    {
+      "rank": 232,
+      "imdb_id": "tt2942218",
+      "title": "Log Horizon",
+      "original_title": "Rogu Horaizun",
+      "year": 2013
+    },
+    {
+      "rank": 233,
+      "imdb_id": "tt0159193",
+      "title": "Mobile Suit Gundam Wing",
+      "original_title": "Shin Kidô Senki Gandamu Uingu",
+      "year": 1995
+    },
+    {
+      "rank": 234,
+      "imdb_id": "tt9817980",
+      "title": "Domestic Girlfriend",
+      "original_title": "Domestic na Kanojo",
+      "year": 2019
+    },
+    {
+      "rank": 235,
+      "imdb_id": "tt2329220",
+      "title": "Btooom!",
+      "original_title": "Btooom!",
+      "year": 2012
+    },
+    {
+      "rank": 236,
+      "imdb_id": "tt0482855",
+      "title": "Blood+",
+      "original_title": "Blood+",
+      "year": 2005
+    },
+    {
+      "rank": 237,
+      "imdb_id": "tt0247117",
+      "title": "Moomin",
+      "original_title": "Tanoshî Mûmin ikka",
+      "year": 1990
+    },
+    {
+      "rank": 238,
+      "imdb_id": "tt3158246",
+      "title": "Space Dandy",
+      "original_title": "Space Dandy",
+      "year": 2014
+    },
+    {
+      "rank": 239,
+      "imdb_id": "tt1410218",
+      "title": "K-On!",
+      "original_title": "K-On!",
+      "year": 2009
+    },
+    {
+      "rank": 240,
+      "imdb_id": "tt15490038",
+      "title": "Kotaro Lives Alone",
+      "original_title": "Kotarô wa Hitori Gurashi",
+      "year": 2022
+    },
+    {
+      "rank": 241,
+      "imdb_id": "tt15830678",
+      "title": "Tomodachi Game",
+      "original_title": "Tomodachi Game",
+      "year": 2022
+    },
+    {
+      "rank": 242,
+      "imdb_id": "tt8086718",
+      "title": "Grand Blue Dreaming",
+      "original_title": "Guran Buru",
+      "year": 2018
+    },
+    {
+      "rank": 243,
+      "imdb_id": "tt6455986",
+      "title": "Saga of Tanya the Evil",
+      "original_title": "Yojo Senki: Saga of Tanya the Evil",
+      "year": 2017
+    },
+    {
+      "rank": 244,
+      "imdb_id": "tt0326672",
+      "title": "Chobits",
+      "original_title": "Chobits",
+      "year": 2002
+    },
+    {
+      "rank": 245,
+      "imdb_id": "tt13352232",
+      "title": "High-Rise Invasion",
+      "original_title": "Tenkû Shinpan",
+      "year": 2021
+    },
+    {
+      "rank": 246,
+      "imdb_id": "tt0899258",
+      "title": "D.Gray-man",
+      "original_title": "D.Gray-man",
+      "year": 2006
+    },
+    {
+      "rank": 247,
+      "imdb_id": "tt12831098",
+      "title": "Moriarty the Patriot",
+      "original_title": "Yuukoku no Moriarty",
+      "year": 2020
+    },
+    {
+      "rank": 248,
+      "imdb_id": "tt3398976",
+      "title": "Knights of Sidonia",
+      "original_title": "Sidonia no Kishi",
+      "year": 2014
+    },
+    {
+      "rank": 249,
+      "imdb_id": "tt0133295",
+      "title": "Maya",
+      "original_title": "Mitsubachi Mâya no bôken",
+      "year": 1975
+    },
+    {
+      "rank": 250,
+      "imdb_id": "tt3660104",
+      "title": "Barakamon",
+      "original_title": "Barakamon",
+      "year": 2014
+    },
+    {
+      "rank": 251,
+      "imdb_id": "tt13248076",
+      "title": "Wonder Egg Priority",
+      "original_title": "Wonder Egg Priority",
+      "year": 2021
+    },
+    {
+      "rank": 252,
+      "imdb_id": "tt2575684",
+      "title": "Date a Live",
+      "original_title": "Date a Live",
+      "year": 2013
+    },
+    {
+      "rank": 253,
+      "imdb_id": "tt0385426",
+      "title": "Initial D: First Stage",
+      "original_title": "Initial D: First Stage",
+      "year": 1998
+    },
+    {
+      "rank": 254,
+      "imdb_id": "tt0138919",
+      "title": "The Vision of Escaflowne",
+      "original_title": "Tenkû no Esukafurône",
+      "year": 1996
+    },
+    {
+      "rank": 255,
+      "imdb_id": "tt13851958",
+      "title": "Vivy: Fluorite Eye's Song",
+      "original_title": "Vivy: Fluorite Eye's Song",
+      "year": 2021
+    },
+    {
+      "rank": 256,
+      "imdb_id": "tt21423786",
+      "title": "The Dangers in My Heart",
+      "original_title": "Boku no Kokoro no Yabai Yatsu",
+      "year": 2023
+    },
+    {
+      "rank": 257,
+      "imdb_id": "tt4958580",
+      "title": "Gate",
+      "original_title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+      "year": 2015
+    },
+    {
+      "rank": 258,
+      "imdb_id": "tt0482424",
+      "title": "Samurai 7",
+      "original_title": "Samurai 7",
+      "year": 2004
+    },
+    {
+      "rank": 259,
+      "imdb_id": "tt0856348",
+      "title": "Basilisk",
+      "original_title": "Basilisk: Kôga ninpô chô",
+      "year": 2005
+    },
+    {
+      "rank": 260,
+      "imdb_id": "tt3874528",
+      "title": "The Irregular at Magic High School",
+      "original_title": "Mahouka koukou no rettousei",
+      "year": 2014
+    },
+    {
+      "rank": 261,
+      "imdb_id": "tt3615002",
+      "title": "Monthly Girls' Nozaki-kun",
+      "original_title": "Gekkan shôjo Nozaki-kun",
+      "year": 2014
+    },
+    {
+      "rank": 262,
+      "imdb_id": "tt6352180",
+      "title": "Little Witch Academia",
+      "original_title": "Little Witch Academia",
+      "year": 2017
+    },
+    {
+      "rank": 263,
+      "imdb_id": "tt0380113",
+      "title": "Haibane Renmei",
+      "original_title": "Haibane Renmei",
+      "year": 2002
+    },
+    {
+      "rank": 264,
+      "imdb_id": "tt2309312",
+      "title": "Say \"I love you\"",
+      "original_title": "Suki-tte î na yo.",
+      "year": 2012
+    },
+    {
+      "rank": 265,
+      "imdb_id": "tt21856734",
+      "title": "Junji Ito Maniac: Japanese Tales of the Macabre",
+      "original_title": "Junji Ito Maniac: Japanese Tales of the Macabre",
+      "year": 2023
+    },
+    {
+      "rank": 266,
+      "imdb_id": "tt7326322",
+      "title": "The Ancient Magus' Bride",
+      "original_title": "Mahô Tsukai no Yome",
+      "year": 2017
+    },
+    {
+      "rank": 267,
+      "imdb_id": "tt3115338",
+      "title": "Nisekoi: False Love",
+      "original_title": "Nisekoi",
+      "year": 2014
+    },
+    {
+      "rank": 268,
+      "imdb_id": "tt2404499",
+      "title": "Kingdom",
+      "original_title": "Kingdom",
+      "year": 2012
+    },
+    {
+      "rank": 269,
+      "imdb_id": "tt22297712",
+      "title": "My Love Story with Yamada-kun at Lv999",
+      "original_title": "Yamada-kun to Lv999 no Koi wo Suru",
+      "year": 2023
+    },
+    {
+      "rank": 270,
+      "imdb_id": "tt10011298",
+      "title": "Dragon's Dogma",
+      "original_title": "Dragon's Dogma",
+      "year": 2020
+    },
+    {
+      "rank": 271,
+      "imdb_id": "tt0122356",
+      "title": "The Mysterious Cities of Gold",
+      "original_title": "Taiyô no ko Esuteban",
+      "year": 1982
+    },
+    {
+      "rank": 272,
+      "imdb_id": "tt0266171",
+      "title": "Outlaw Star",
+      "original_title": "Outlaw Star",
+      "year": 1998
+    },
+    {
+      "rank": 273,
+      "imdb_id": "tt2016670",
+      "title": "Shiki",
+      "original_title": "Shiki",
+      "year": 2010
+    },
+    {
+      "rank": 274,
+      "imdb_id": "tt15975122",
+      "title": "Call of the Night",
+      "original_title": "Yofukashi no uta",
+      "year": 2022
+    },
+    {
+      "rank": 275,
+      "imdb_id": "tt5225764",
+      "title": "Drifters",
+      "original_title": "Drifters",
+      "year": 2016
+    },
+    {
+      "rank": 276,
+      "imdb_id": "tt14061838",
+      "title": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+      "original_title": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei Suru",
+      "year": 2021
+    },
+    {
+      "rank": 277,
+      "imdb_id": "tt1202625",
+      "title": "Kaiji: Ultimate Survivor",
+      "original_title": "Gyakkyô burai Kaiji",
+      "year": 2007
+    },
+    {
+      "rank": 278,
+      "imdb_id": "tt10974198",
+      "title": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
+      "original_title": "Shinchô yûsha ~ kono yûsha ga ore TUEEE kuse ni shinchô sugiru ~",
+      "year": 2019
+    },
+    {
+      "rank": 279,
+      "imdb_id": "tt13198632",
+      "title": "Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway",
+      "original_title": "Hige o Soru. Soshite Joshikousei o Hirou.",
+      "year": 2021
+    },
+    {
+      "rank": 280,
+      "imdb_id": "tt1415054",
+      "title": "Eden of the East",
+      "original_title": "Higashi no Eden",
+      "year": 2009
+    },
+    {
+      "rank": 281,
+      "imdb_id": "tt0110426",
+      "title": "Macross Plus",
+      "original_title": "Macross Plus",
+      "year": 1994
+    },
+    {
+      "rank": 282,
+      "imdb_id": "tt14115912",
+      "title": "Blue Period",
+      "original_title": "Blue Period",
+      "year": 2021
+    },
+    {
+      "rank": 283,
+      "imdb_id": "tt0088595",
+      "title": "Robotech",
+      "original_title": "Robotech",
+      "year": 1985
+    },
+    {
+      "rank": 284,
+      "imdb_id": "tt0816398",
+      "title": "Planetes",
+      "original_title": "Planetes",
+      "year": 2003
+    },
+    {
+      "rank": 285,
+      "imdb_id": "tt4542568",
+      "title": "Snow White with the Red Hair",
+      "original_title": "Akagami no Shirayuki-hime",
+      "year": 2015
+    },
+    {
+      "rank": 286,
+      "imdb_id": "tt6402190",
+      "title": "Masamune-kun's Revenge",
+      "original_title": "Masamune-kun No Revenge",
+      "year": 2017
+    },
+    {
+      "rank": 287,
+      "imdb_id": "tt16231800",
+      "title": "More Than a Married Couple, But Not Lovers",
+      "original_title": "Fuufu Ijou, Koibito Miman.",
+      "year": 2022
+    },
+    {
+      "rank": 288,
+      "imdb_id": "tt7965802",
+      "title": "Megalo Box",
+      "original_title": "Megalobox",
+      "year": 2018
+    },
+    {
+      "rank": 289,
+      "imdb_id": "tt2061551",
+      "title": "Bunny Drop",
+      "original_title": "Usagi doroppu",
+      "year": 2011
+    },
+    {
+      "rank": 290,
+      "imdb_id": "tt21210326",
+      "title": "Tomo-chan Is a Girl!",
+      "original_title": "Tomo-chan Is a Girl!",
+      "year": 2023
+    },
+    {
+      "rank": 291,
+      "imdb_id": "tt0390733",
+      "title": "Last Exile",
+      "original_title": "Last Exile",
+      "year": 2003
+    },
+    {
+      "rank": 292,
+      "imdb_id": "tt19064770",
+      "title": "The Angel Next Door Spoils Me Rotten",
+      "original_title": "Otonari no tenshi-sama ni itsu no ma ni ka dame-ningen ni sareteita ken",
+      "year": 2023
+    },
+    {
+      "rank": 293,
+      "imdb_id": "tt1992386",
+      "title": "Black Lagoon: Roberta's Blood Trail",
+      "original_title": "Black Lagoon: Roberta's Blood Trail",
+      "year": 2010
+    },
+    {
+      "rank": 294,
+      "imdb_id": "tt1161684",
+      "title": "Rosario + Vampire",
+      "original_title": "Rozario to banpaia",
+      "year": 2008
+    },
+    {
+      "rank": 295,
+      "imdb_id": "tt2098308",
+      "title": "Nichijou: My Ordinary Life",
+      "original_title": "Nichijou",
+      "year": 2011
+    },
+    {
+      "rank": 296,
+      "imdb_id": "tt2309320",
+      "title": "From the New World",
+      "original_title": "Shin Sekai Yori",
+      "year": 2012
+    },
+    {
+      "rank": 297,
+      "imdb_id": "tt2904418",
+      "title": "Free!",
+      "original_title": "Free!",
+      "year": 2013
+    },
+    {
+      "rank": 298,
+      "imdb_id": "tt1992744",
+      "title": "Fighting Spirit: New Challenger",
+      "original_title": "Hajime no Ippo: New Challenger",
+      "year": 2009
+    },
+    {
+      "rank": 299,
+      "imdb_id": "tt11405390",
+      "title": "Darwin's Game",
+      "original_title": "Dâuinzu gêmu: Darwin's Game",
+      "year": 2020
+    },
+    {
+      "rank": 300,
+      "imdb_id": "tt0091211",
+      "title": "Fist of the North Star",
+      "original_title": "Hokuto no Ken",
+      "year": 1984
+    },
+    {
+      "rank": 301,
+      "imdb_id": "tt0339955",
+      "title": "Azumanga Daioh: The Animation",
+      "original_title": "Azumanga daiô",
+      "year": 2002
+    },
+    {
+      "rank": 302,
+      "imdb_id": "tt12013558",
+      "title": "BNA",
+      "original_title": "BNA",
+      "year": 2020
+    },
+    {
+      "rank": 303,
+      "imdb_id": "tt1534184",
+      "title": "InuYasha: The Final Act",
+      "original_title": "Inuyasha Kanketsu-hen",
+      "year": 2009
+    },
+    {
+      "rank": 304,
+      "imdb_id": "tt4831392",
+      "title": "Monster Musume: Everyday Life with Monster Girls",
+      "original_title": "Monster Musume no Iru Nichijou",
+      "year": 2015
+    },
+    {
+      "rank": 305,
+      "imdb_id": "tt1114855",
+      "title": "Bakugan Battle Brawlers",
+      "original_title": "Bakugan batoru burorazu",
+      "year": 2007
+    },
+    {
+      "rank": 306,
+      "imdb_id": "tt5025394",
+      "title": "Gangsta.",
+      "original_title": "Gyangusuta",
+      "year": 2015
+    },
+    {
+      "rank": 307,
+      "imdb_id": "tt4219258",
+      "title": "The Testament of Sister New Devil",
+      "original_title": "Shinmai Maou no Testament",
+      "year": 2015
+    },
+    {
+      "rank": 308,
+      "imdb_id": "tt9828724",
+      "title": "Wise Man's Grandchild",
+      "original_title": "Kenja no Mago",
+      "year": 2019
+    },
+    {
+      "rank": 309,
+      "imdb_id": "tt6074794",
+      "title": "March Comes in Like a Lion",
+      "original_title": "Sangatsu no Lion",
+      "year": 2016
+    },
+    {
+      "rank": 310,
+      "imdb_id": "tt12031040",
+      "title": "Japan Sinks: 2020",
+      "original_title": "Nihon Chinbotsu 2020",
+      "year": 2020
+    },
+    {
+      "rank": 311,
+      "imdb_id": "tt14272628",
+      "title": "Super Crooks",
+      "original_title": "Super Crooks",
+      "year": 2021
+    },
+    {
+      "rank": 312,
+      "imdb_id": "tt1587394",
+      "title": "Lovely Complex",
+      "original_title": "Lovely Complex",
+      "year": 2007
+    },
+    {
+      "rank": 313,
+      "imdb_id": "tt0805448",
+      "title": "Saint Seiya: The Hades Chapter",
+      "original_title": "Seinto Seiya: Meiô Hâdesu jûnikyû-hen",
+      "year": 2002
+    },
+    {
+      "rank": 314,
+      "imdb_id": "tt0061300",
+      "title": "Speed Racer",
+      "original_title": "Mahha GoGoGo",
+      "year": 1967
+    },
+    {
+      "rank": 315,
+      "imdb_id": "tt2902582",
+      "title": "Danganronpa: The Animation",
+      "original_title": "Danganronpa: Kibô no gakuen to zetsubô no kôkôsei - The animation",
+      "year": 2013
+    },
+    {
+      "rank": 316,
+      "imdb_id": "tt5341430",
+      "title": "Grimgar, Ashes and Illusions",
+      "original_title": "Hai to gensô no Grimgar",
+      "year": 2016
+    },
+    {
+      "rank": 317,
+      "imdb_id": "tt22301234",
+      "title": "Onimusha",
+      "original_title": "Onimusha",
+      "year": 2023
+    },
+    {
+      "rank": 318,
+      "imdb_id": "tt15792808",
+      "title": "Aoashi",
+      "original_title": "Ao Ashi",
+      "year": 2022
+    },
+    {
+      "rank": 319,
+      "imdb_id": "tt4967674",
+      "title": "Shimoneta: A Boring World Where the Concept of Dirty Jokes Doesn't Exist",
+      "original_title": "Shimoneta to Iu gainen ga sonzai shinai taikutsu na sekai",
+      "year": 2015
+    },
+    {
+      "rank": 320,
+      "imdb_id": "tt2341375",
+      "title": "Kids on the Slope",
+      "original_title": "Sakamichi no Apollon",
+      "year": 2012
+    },
+    {
+      "rank": 321,
+      "imdb_id": "tt16755706",
+      "title": "Lycoris Recoil",
+      "original_title": "Rikorisu rikoiru",
+      "year": 2022
+    },
+    {
+      "rank": 322,
+      "imdb_id": "tt3514596",
+      "title": "Fighting Spirit: Rising",
+      "original_title": "Hajime No Ippo: Rising",
+      "year": 2013
+    },
+    {
+      "rank": 323,
+      "imdb_id": "tt3218680",
+      "title": "Pokémon Origins",
+      "original_title": "Pokémon Origins",
+      "year": 2013
+    },
+    {
+      "rank": 324,
+      "imdb_id": "tt3257166",
+      "title": "Black Bullet",
+      "original_title": "Black Bullet",
+      "year": 2014
+    },
+    {
+      "rank": 325,
+      "imdb_id": "tt7088332",
+      "title": "In Another World with My Smartphone",
+      "original_title": "Isekai wa smartphone to tomo ni.",
+      "year": 2017
+    },
+    {
+      "rank": 326,
+      "imdb_id": "tt1992935",
+      "title": "Mononoke",
+      "original_title": "Mononoke",
+      "year": 2007
+    },
+    {
+      "rank": 327,
+      "imdb_id": "tt0433498",
+      "title": "Kino's Journey",
+      "original_title": "Kino no tabi",
+      "year": 2003
+    },
+    {
+      "rank": 328,
+      "imdb_id": "tt0765491",
+      "title": "Eureka Seven",
+      "original_title": "Kôkyô shihen Eureka Sebun",
+      "year": 2005
+    },
+    {
+      "rank": 329,
+      "imdb_id": "tt3443522",
+      "title": "Mushi-Shi: Next Passage",
+      "original_title": "Mushishi Zoku Shou",
+      "year": 2014
+    },
+    {
+      "rank": 330,
+      "imdb_id": "tt0296386",
+      "title": "The Wonderful Adventures of Nils",
+      "original_title": "Nirusu no fushigi na tabi",
+      "year": 1980
+    },
+    {
+      "rank": 331,
+      "imdb_id": "tt10954274",
+      "title": "ID:Invaded",
+      "original_title": "ID: Invaded",
+      "year": 2020
+    },
+    {
+      "rank": 332,
+      "imdb_id": "tt0409630",
+      "title": "Texhnolyze",
+      "original_title": "Tekunoraizu",
+      "year": 2003
+    },
+    {
+      "rank": 333,
+      "imdb_id": "tt2178501",
+      "title": "Nisemonogatari",
+      "original_title": "Nisemonogatari",
+      "year": 2012
+    },
+    {
+      "rank": 334,
+      "imdb_id": "tt4603222",
+      "title": "Plastic Memories",
+      "original_title": "Purasutikku Memorîzu",
+      "year": 2015
+    },
+    {
+      "rank": 335,
+      "imdb_id": "tt8670784",
+      "title": "Angels of Death",
+      "original_title": "Satsuriku no Tenshi",
+      "year": 2018
+    },
+    {
+      "rank": 336,
+      "imdb_id": "tt4906830",
+      "title": "Attack on Titan: Junior High",
+      "original_title": "Attack on Titan: Junior High",
+      "year": 2015
+    },
+    {
+      "rank": 337,
+      "imdb_id": "tt1610860",
+      "title": "Rainbow: The Seven from Compound Two, Cell Six",
+      "original_title": "Rainbow: Nishakubou no shichinin",
+      "year": 2010
+    },
+    {
+      "rank": 338,
+      "imdb_id": "tt0362344",
+      "title": "Silver Fang",
+      "original_title": "Ginga: Nagareboshi Gin",
+      "year": 1986
+    },
+    {
+      "rank": 339,
+      "imdb_id": "tt6845846",
+      "title": "Akashic Records of Bastard Magic Instructor",
+      "original_title": "Roku de nashi majutsu kôshi to akashic records",
+      "year": 2017
+    },
+    {
+      "rank": 340,
+      "imdb_id": "tt7808344",
+      "title": "Karakai Jouzu no Takagi-san",
+      "original_title": "Karakai Jouzu no Takagi-san",
+      "year": 2018
+    },
+    {
+      "rank": 341,
+      "imdb_id": "tt2922300",
+      "title": "Monogatari Series: Second Season",
+      "original_title": "Monogatari Series: Second Season",
+      "year": 2013
+    },
+    {
+      "rank": 342,
+      "imdb_id": "tt2189248",
+      "title": "Inazuma Eleven",
+      "original_title": "Inazuma irebun",
+      "year": 2008
+    },
+    {
+      "rank": 343,
+      "imdb_id": "tt0285368",
+      "title": "Ghost Stories",
+      "original_title": "Gakkô no kaidan",
+      "year": 2000
+    },
+    {
+      "rank": 344,
+      "imdb_id": "tt8673610",
+      "title": "Cells at Work!",
+      "original_title": "Hataraku Saibou",
+      "year": 2018
+    },
+    {
+      "rank": 345,
+      "imdb_id": "tt1068993",
+      "title": "School Days",
+      "original_title": "Sukûru deizu",
+      "year": 2007
+    },
+    {
+      "rank": 346,
+      "imdb_id": "tt14641098",
+      "title": "The Case Study of Vanitas",
+      "original_title": "Vanitas no Carte",
+      "year": 2021
+    },
+    {
+      "rank": 347,
+      "imdb_id": "tt3950092",
+      "title": "Wolf Girl & Black Prince",
+      "original_title": "Ookami shoujo to kuro ouji",
+      "year": 2014
+    },
+    {
+      "rank": 348,
+      "imdb_id": "tt3114376",
+      "title": "Beyond the Boundary",
+      "original_title": "Kyoukai no kanata",
+      "year": 2013
+    },
+    {
+      "rank": 349,
+      "imdb_id": "tt12331342",
+      "title": "Akudama Drive",
+      "original_title": "Akudama Drive",
+      "year": 2020
+    },
+    {
+      "rank": 350,
+      "imdb_id": "tt1727444",
+      "title": "Panty & Stocking with Garterbelt",
+      "original_title": "Panty & Stocking with Garterbelt",
+      "year": 2010
+    },
+    {
+      "rank": 351,
+      "imdb_id": "tt2180883",
+      "title": "Daily Lives of High School Boys",
+      "original_title": "Danshi kôkôsei no nichijô",
+      "year": 2012
+    },
+    {
+      "rank": 352,
+      "imdb_id": "tt5987956",
+      "title": "Blue Exorcist: Kyoto Saga",
+      "original_title": "Ao no ekusoshisuto: Kyoto fujô ô-hen",
+      "year": 2017
+    },
+    {
+      "rank": 353,
+      "imdb_id": "tt1029248",
+      "title": "Moribito: Guardian of the Spirit",
+      "original_title": "Seirei no moribito",
+      "year": 2007
+    },
+    {
+      "rank": 354,
+      "imdb_id": "tt0100044",
+      "title": "Record of the Lodoss War",
+      "original_title": "Rôdosu-tô senki",
+      "year": 1990
+    },
+    {
+      "rank": 355,
+      "imdb_id": "tt0159172",
+      "title": "Mobile Suit Gundam",
+      "original_title": "Kidô Senshi Gandamu",
+      "year": 1979
+    },
+    {
+      "rank": 356,
+      "imdb_id": "tt3532752",
+      "title": "Trinity Seven",
+      "original_title": "Trinity Seven: 7-nin no Masho Tsukai",
+      "year": 2014
+    },
+    {
+      "rank": 357,
+      "imdb_id": "tt7978710",
+      "title": "Sword Art Online Alternative: Gun Gale Online",
+      "original_title": "Sword Art Online Alternative: Gun Gale Online",
+      "year": 2018
+    },
+    {
+      "rank": 358,
+      "imdb_id": "tt7836688",
+      "title": "A Place Further Than the Universe",
+      "original_title": "Sora yori mo tôi basho",
+      "year": 2018
+    },
+    {
+      "rank": 359,
+      "imdb_id": "tt7521578",
+      "title": "Citrus",
+      "original_title": "Citrus",
+      "year": 2018
+    },
+    {
+      "rank": 360,
+      "imdb_id": "tt0791163",
+      "title": "Trinity Blood",
+      "original_title": "Trinity Blood",
+      "year": 2005
+    },
+    {
+      "rank": 361,
+      "imdb_id": "tt1339238",
+      "title": "Sekirei",
+      "original_title": "Sekirei",
+      "year": 2008
+    },
+    {
+      "rank": 362,
+      "imdb_id": "tt1068433",
+      "title": "When They Cry: Kai",
+      "original_title": "Higurashi no naku koro ni: Kai",
+      "year": 2007
+    },
+    {
+      "rank": 363,
+      "imdb_id": "tt8225204",
+      "title": "Golden Kamuy",
+      "original_title": "Gôruden Kamui",
+      "year": 2018
+    },
+    {
+      "rank": 364,
+      "imdb_id": "tt4623042",
+      "title": "Yamada-kun to 7-nin no Majo",
+      "original_title": "Yamada-kun to 7-nin no Majo",
+      "year": 2014
+    },
+    {
+      "rank": 365,
+      "imdb_id": "tt2645500",
+      "title": "Haganai: I Don't Have Many Friends",
+      "original_title": "Boku wa tomodachi ga sukunai",
+      "year": 2011
+    },
+    {
+      "rank": 366,
+      "imdb_id": "tt1636694",
+      "title": "Demon King Daimao",
+      "original_title": "Ichiban ushiro no daimaou",
+      "year": 2010
+    },
+    {
+      "rank": 367,
+      "imdb_id": "tt6424454",
+      "title": "Fate/Apocrypha",
+      "original_title": "Fate/Apocrypha",
+      "year": 2017
+    },
+    {
+      "rank": 368,
+      "imdb_id": "tt1738419",
+      "title": "Bakuman.",
+      "original_title": "Bakuman.",
+      "year": 2010
+    },
+    {
+      "rank": 369,
+      "imdb_id": "tt1134000",
+      "title": "Mobile Suit Gundam 00",
+      "original_title": "Kidô Senshi Gundam 00",
+      "year": 2007
+    },
+    {
+      "rank": 370,
+      "imdb_id": "tt0437719",
+      "title": "Gankutsuou: The Count of Monte Cristo",
+      "original_title": "Gankutsu-ô",
+      "year": 2004
+    },
+    {
+      "rank": 371,
+      "imdb_id": "tt0434662",
+      "title": "Beck: Mongolian Chop Squad",
+      "original_title": "Beck: Mongolian Chop Squad",
+      "year": 2004
+    },
+    {
+      "rank": 372,
+      "imdb_id": "tt1233119",
+      "title": "Shigurui: Death Frenzy",
+      "original_title": "Shigurui",
+      "year": 2007
+    },
+    {
+      "rank": 373,
+      "imdb_id": "tt0374407",
+      "title": "Mobile Suit Gundam SEED",
+      "original_title": "Kidô senshi Gundam Seed",
+      "year": 2002
+    },
+    {
+      "rank": 374,
+      "imdb_id": "tt2250034",
+      "title": "Kokoro Connect",
+      "original_title": "Kokoro Connect",
+      "year": 2012
+    },
+    {
+      "rank": 375,
+      "imdb_id": "tt5701624",
+      "title": "Haven't You Heard? I'm Sakamoto",
+      "original_title": "Sakamoto desu ga?",
+      "year": 2016
+    },
+    {
+      "rank": 376,
+      "imdb_id": "tt1352421",
+      "title": "Natsume's Book of Friends",
+      "original_title": "Natsume yûjinchô",
+      "year": 2008
+    },
+    {
+      "rank": 377,
+      "imdb_id": "tt14271890",
+      "title": "Mieruko-chan",
+      "original_title": "Mieruko-chan",
+      "year": 2021
+    },
+    {
+      "rank": 378,
+      "imdb_id": "tt4379632",
+      "title": "Blood Blockade Battlefront",
+      "original_title": "Kekkai Sensen",
+      "year": 2015
+    },
+    {
+      "rank": 379,
+      "imdb_id": "tt2377452",
+      "title": "K: Return of Kings",
+      "original_title": "K",
+      "year": 2012
+    },
+    {
+      "rank": 380,
+      "imdb_id": "tt0318895",
+      "title": "Hamtaro",
+      "original_title": "Tottoko Hamutaro",
+      "year": 2000
+    },
+    {
+      "rank": 381,
+      "imdb_id": "tt2575678",
+      "title": "Nekomonogatari: Black",
+      "original_title": "Nekomonogatari (Kuro)",
+      "year": 2012
+    },
+    {
+      "rank": 382,
+      "imdb_id": "tt6472710",
+      "title": "As the Moon, So Beautiful",
+      "original_title": "Tsuki ga kirei",
+      "year": 2017
+    },
+    {
+      "rank": 383,
+      "imdb_id": "tt1685407",
+      "title": "Black Butler II",
+      "original_title": "Kuroshitsuji II",
+      "year": 2010
+    },
+    {
+      "rank": 384,
+      "imdb_id": "tt5095466",
+      "title": "The Asterisk War",
+      "original_title": "Gakusen toshi asterisk",
+      "year": 2015
+    },
+    {
+      "rank": 385,
+      "imdb_id": "tt4431276",
+      "title": "Magi: Adventures of Sinbad",
+      "original_title": "Magi: Shindobaddo no bôken",
+      "year": 2016
+    },
+    {
+      "rank": 386,
+      "imdb_id": "tt8107988",
+      "title": "Carole & Tuesday",
+      "original_title": "Kyaroru & Chûzudei",
+      "year": 2019
+    },
+    {
+      "rank": 387,
+      "imdb_id": "tt8253044",
+      "title": "Hinamatsuri",
+      "original_title": "Hinamatsuri",
+      "year": 2018
+    },
+    {
+      "rank": 388,
+      "imdb_id": "tt2070571",
+      "title": "X-Men",
+      "original_title": "X-Men",
+      "year": 2011
+    },
+    {
+      "rank": 389,
+      "imdb_id": "tt1086236",
+      "title": "Lucky Star",
+      "original_title": "Lucky Star",
+      "year": 2007
+    },
+    {
+      "rank": 390,
+      "imdb_id": "tt2963556",
+      "title": "WATAMOTE: No Matter How I Look at It, It's You Guys' Fault I'm Not Popular!",
+      "original_title": "Watashi ga motenai no wa dô kangaetemo omaera ga warui!",
+      "year": 2013
+    },
+    {
+      "rank": 391,
+      "imdb_id": "tt3127798",
+      "title": "Corpse Party: Tortured Souls",
+      "original_title": "Corpse Party: Tortured Souls",
+      "year": 2013
+    },
+    {
+      "rank": 392,
+      "imdb_id": "tt6197170",
+      "title": "Scum's Wish",
+      "original_title": "Kuzu no honkai",
+      "year": 2017
+    },
+    {
+      "rank": 393,
+      "imdb_id": "tt1634209",
+      "title": "Kiss x sis",
+      "original_title": "Kiss x sis",
+      "year": 2010
+    },
+    {
+      "rank": 394,
+      "imdb_id": "tt0185070",
+      "title": "UFO Robo Grendizer",
+      "original_title": "UFO robo: Gurendaizâ",
+      "year": 1975
+    },
+    {
+      "rank": 395,
+      "imdb_id": "tt8963328",
+      "title": "Hi Score Girl",
+      "original_title": "Hai Sukoa Garu",
+      "year": 2018
+    },
+    {
+      "rank": 396,
+      "imdb_id": "tt0293731",
+      "title": "Medabots",
+      "original_title": "Medabots",
+      "year": 1999
+    },
+    {
+      "rank": 397,
+      "imdb_id": "tt0144069",
+      "title": "Street Fighter II: V",
+      "original_title": "Sutorîto Faitâ Tsû Bui",
+      "year": 1995
+    },
+    {
+      "rank": 398,
+      "imdb_id": "tt3544556",
+      "title": "Aldnoah.Zero",
+      "original_title": "Aldnoah.Zero",
+      "year": 2014
+    },
+    {
+      "rank": 399,
+      "imdb_id": "tt0159175",
+      "title": "Lupin the Third Part 1",
+      "original_title": "Rupan sansei",
+      "year": 1971
+    },
+    {
+      "rank": 400,
+      "imdb_id": "tt0978553",
+      "title": "The Familiar of Zero",
+      "original_title": "Zero no tsukaima",
+      "year": 2006
+    },
+    {
+      "rank": 401,
+      "imdb_id": "tt0278855",
+      "title": "Vicky the Viking",
+      "original_title": "Chîsana baikingu Bikke",
+      "year": 1974
+    },
+    {
+      "rank": 402,
+      "imdb_id": "tt1424037",
+      "title": "Kenichi: The Mightiest Disciple",
+      "original_title": "Shijou Saikyou no Deshi Kenichi",
+      "year": 2006
+    },
+    {
+      "rank": 403,
+      "imdb_id": "tt2760784",
+      "title": "Blood Lad",
+      "original_title": "Blood Lad",
+      "year": 2013
+    },
+    {
+      "rank": 404,
+      "imdb_id": "tt0112166",
+      "title": "The Slayers",
+      "original_title": "Sureiyâzu",
+      "year": 1995
+    },
+    {
+      "rank": 405,
+      "imdb_id": "tt0279570",
+      "title": "Love Hina",
+      "original_title": "Rabu Hina",
+      "year": 2000
+    },
+    {
+      "rank": 406,
+      "imdb_id": "tt0131190",
+      "title": "Ulysse 31",
+      "original_title": "Ulysse 31",
+      "year": 1981
+    },
+    {
+      "rank": 407,
+      "imdb_id": "tt0338621",
+      "title": "Kirby: Right Back at Ya!",
+      "original_title": "Hoshi no Kirby",
+      "year": 2001
+    },
+    {
+      "rank": 408,
+      "imdb_id": "tt2339875",
+      "title": "Accel World",
+      "original_title": "Accel World",
+      "year": 2012
+    },
+    {
+      "rank": 409,
+      "imdb_id": "tt0280240",
+      "title": "The Big O",
+      "original_title": "The Big O",
+      "year": 1999
+    },
+    {
+      "rank": 410,
+      "imdb_id": "tt0476042",
+      "title": "Gunslinger Girl",
+      "original_title": "Gunslinger Girl",
+      "year": 2003
+    },
+    {
+      "rank": 411,
+      "imdb_id": "tt0142183",
+      "title": "Super Dimension Fortress Macross",
+      "original_title": "Choujikuu Yousai Macross",
+      "year": 1982
+    },
+    {
+      "rank": 412,
+      "imdb_id": "tt0105559",
+      "title": "Tenchi Muyo!",
+      "original_title": "Tenchi Muyo! Ryo-Ohki",
+      "year": 1992
+    },
+    {
+      "rank": 413,
+      "imdb_id": "tt1882240",
+      "title": "Beelzebub",
+      "original_title": "Beelzebub",
+      "year": 2011
+    },
+    {
+      "rank": 414,
+      "imdb_id": "tt0078570",
+      "title": "Lady Oscar: The Rose of Versailles",
+      "original_title": "Berusaiyu no bara",
+      "year": 1979
+    },
+    {
+      "rank": 415,
+      "imdb_id": "tt5240222",
+      "title": "God Eater",
+      "original_title": "God Eater",
+      "year": 2015
+    },
+    {
+      "rank": 416,
+      "imdb_id": "tt8565136",
+      "title": "Sirius the Jaeger",
+      "original_title": "Sirius the Jaeger",
+      "year": 2018
+    },
+    {
+      "rank": 417,
+      "imdb_id": "tt2350826",
+      "title": "No. 6",
+      "original_title": "No. 6",
+      "year": 2011
+    },
+    {
+      "rank": 418,
+      "imdb_id": "tt5023666",
+      "title": "The Heroic Legend of Arslan",
+      "original_title": "Arslan Senki",
+      "year": 2015
+    },
+    {
+      "rank": 419,
+      "imdb_id": "tt0402716",
+      "title": "Witch Hunter Robin",
+      "original_title": "Witch Hunter Robin",
+      "year": 2002
+    },
+    {
+      "rank": 420,
+      "imdb_id": "tt1308089",
+      "title": "A Certain Magical Index",
+      "original_title": "To aru majutsu no indekkusu",
+      "year": 2008
+    },
+    {
+      "rank": 421,
+      "imdb_id": "tt7712706",
+      "title": "Death March to the Parallel World Rhapsody",
+      "original_title": "Desu Mâchi Kara Hajimaru Isekai Kyôsôkyoku",
+      "year": 2018
+    },
+    {
+      "rank": 422,
+      "imdb_id": "tt0878036",
+      "title": "School Rumble",
+      "original_title": "School Rumble",
+      "year": 2004
+    },
+    {
+      "rank": 423,
+      "imdb_id": "tt0327386",
+      "title": "The Twelve Kingdoms",
+      "original_title": "Juuni Kokuki",
+      "year": 2002
+    },
+    {
+      "rank": 424,
+      "imdb_id": "tt0220218",
+      "title": "Cyber City Oedo 808",
+      "original_title": "Saibâ shiti Oedo 808",
+      "year": 1990
+    },
+    {
+      "rank": 425,
+      "imdb_id": "tt1196027",
+      "title": "Rin: Daughters of Mnemosyne",
+      "original_title": "Munemoshune no musume tachi",
+      "year": 2008
+    },
+    {
+      "rank": 426,
+      "imdb_id": "tt15529074",
+      "title": "Shikimori's Not Just a Cutie",
+      "original_title": "Kawaii dake ja nai Shikimori-san",
+      "year": 2022
+    },
+    {
+      "rank": 427,
+      "imdb_id": "tt12464182",
+      "title": "Uzaki-chan Wants to Hang Out!",
+      "original_title": "Uzaki-chan wa Asobitai!",
+      "year": 2020
+    },
+    {
+      "rank": 428,
+      "imdb_id": "tt4958610",
+      "title": "Rokka: Braves of the Six Flowers",
+      "original_title": "Rokka no Yuusha",
+      "year": 2015
+    },
+    {
+      "rank": 429,
+      "imdb_id": "tt11428630",
+      "title": "Bofuri: I Don't Want to Get Hurt, So I'll Max Out My Defense",
+      "original_title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu",
+      "year": 2020
+    },
+    {
+      "rank": 430,
+      "imdb_id": "tt3639888",
+      "title": "Black Butler: Book of Circus",
+      "original_title": "Kuroshitsuji: Book of Circus",
+      "year": 2014
+    },
+    {
+      "rank": 431,
+      "imdb_id": "tt1929675",
+      "title": "Infinite Stratos",
+      "original_title": "Infinite Stratos",
+      "year": 2011
+    },
+    {
+      "rank": 432,
+      "imdb_id": "tt15219320",
+      "title": "Uncle from Another World",
+      "original_title": "Isekai ojisan",
+      "year": 2022
+    },
+    {
+      "rank": 433,
+      "imdb_id": "tt12117218",
+      "title": "The Millionaire Detective - Balance: UNLIMITED",
+      "original_title": "Fugô Keiji Balance: UNLIMITED",
+      "year": 2020
+    },
+    {
+      "rank": 434,
+      "imdb_id": "tt0813808",
+      "title": "Oban Star-Racers",
+      "original_title": "Oban Star-Racers",
+      "year": 2006
+    },
+    {
+      "rank": 435,
+      "imdb_id": "tt11163352",
+      "title": "The Disastrous Life of Saiki K.: Reawakened",
+      "original_title": "The Disastrous Life of Saiki K.: Reawakened",
+      "year": 2019
+    },
+    {
+      "rank": 436,
+      "imdb_id": "tt4755410",
+      "title": "Durarara!!x2",
+      "original_title": "Durarara!!x2",
+      "year": 2015
+    },
+    {
+      "rank": 437,
+      "imdb_id": "tt0488477",
+      "title": "XXXHOLiC",
+      "original_title": "XXXHOLiC",
+      "year": 2006
+    },
+    {
+      "rank": 438,
+      "imdb_id": "tt10777610",
+      "title": "Toilet-bound Hanako-kun",
+      "original_title": "Jibaku Shounen Hanako-kun",
+      "year": 2020
+    },
+    {
+      "rank": 439,
+      "imdb_id": "tt1528567",
+      "title": "Heaven's Lost Property",
+      "original_title": "Sora no otoshimono",
+      "year": 2009
+    },
+    {
+      "rank": 440,
+      "imdb_id": "tt17736234",
+      "title": "Bastard!! Heavy Metal, Dark Fantasy",
+      "original_title": "Basutado!! Ankoku no hakaishin",
+      "year": 2022
+    },
+    {
+      "rank": 441,
+      "imdb_id": "tt7155052",
+      "title": "Tsuredure Children",
+      "original_title": "Tsuredure Children",
+      "year": 2017
+    },
+    {
+      "rank": 442,
+      "imdb_id": "tt11034066",
+      "title": "Welcome to Demon-School, Iruma-kun",
+      "original_title": "Mairimashita! Iruma-kun",
+      "year": 2019
+    },
+    {
+      "rank": 443,
+      "imdb_id": "tt4616700",
+      "title": "Ore Monogatari!!",
+      "original_title": "Ore Monogatari!!",
+      "year": 2015
+    },
+    {
+      "rank": 444,
+      "imdb_id": "tt0078560",
+      "title": "Anne of Green Gables",
+      "original_title": "Akage no An",
+      "year": 1979
+    },
+    {
+      "rank": 445,
+      "imdb_id": "tt0096591",
+      "title": "Nadia: The Secret of Blue Water",
+      "original_title": "Fushigi no Umi no Nadia",
+      "year": 1990
+    },
+    {
+      "rank": 446,
+      "imdb_id": "tt13229934",
+      "title": "Godzilla Singular Point",
+      "original_title": "Gojira shingyura pointo",
+      "year": 2021
+    },
+    {
+      "rank": 447,
+      "imdb_id": "tt6538106",
+      "title": "My First Girlfriend Is a Gal",
+      "original_title": "Hajimete no gyaru",
+      "year": 2017
+    },
+    {
+      "rank": 448,
+      "imdb_id": "tt2269368",
+      "title": "Aesthetica of a Rogue Hero",
+      "original_title": "Hagure Yusha no Aestetica",
+      "year": 2012
+    },
+    {
+      "rank": 449,
+      "imdb_id": "tt0498443",
+      "title": "Paradise Kiss",
+      "original_title": "Paradise Kiss",
+      "year": 2005
+    },
+    {
+      "rank": 450,
+      "imdb_id": "tt0205410",
+      "title": "Revolutionary Girl Utena",
+      "original_title": "Shôjo kakumei Utena",
+      "year": 1997
+    },
+    {
+      "rank": 451,
+      "imdb_id": "tt14935960",
+      "title": "Takt Op. Destiny",
+      "original_title": "Takt Op. Destiny",
+      "year": 2021
+    },
+    {
+      "rank": 452,
+      "imdb_id": "tt3621678",
+      "title": "Hanamonogatari",
+      "original_title": "Hanamonogatari",
+      "year": 2014
+    },
+    {
+      "rank": 453,
+      "imdb_id": "tt0272880",
+      "title": "Tekken: The Motion Picture",
+      "original_title": "Tekken",
+      "year": 1998
+    },
+    {
+      "rank": 454,
+      "imdb_id": "tt1890725",
+      "title": "Blood-C",
+      "original_title": "Blood-C",
+      "year": 2011
+    },
+    {
+      "rank": 455,
+      "imdb_id": "tt0098492",
+      "title": "Gunbuster",
+      "original_title": "Top wo Nerae!",
+      "year": 1988
+    },
+    {
+      "rank": 456,
+      "imdb_id": "tt5274556",
+      "title": "Owarimonogatari",
+      "original_title": "Owarimonogatari",
+      "year": 2015
+    },
+    {
+      "rank": 457,
+      "imdb_id": "tt13311344",
+      "title": "Tsukimichi: Moonlit Fantasy",
+      "original_title": "Tsuki ga michibiku isekai-dôchû",
+      "year": 2021
+    },
+    {
+      "rank": 458,
+      "imdb_id": "tt7790776",
+      "title": "Land of the Lustrous",
+      "original_title": "Houseki no Kuni",
+      "year": 2017
+    },
+    {
+      "rank": 459,
+      "imdb_id": "tt13676300",
+      "title": "Platinum End",
+      "original_title": "Platinum End",
+      "year": 2021
+    },
+    {
+      "rank": 460,
+      "imdb_id": "tt21991254",
+      "title": "Romantic Killer",
+      "original_title": "Romantikku Kirâ",
+      "year": 2022
+    },
+    {
+      "rank": 461,
+      "imdb_id": "tt11595706",
+      "title": "Interspecies Reviewers",
+      "original_title": "Ishuzoku Rebyuâzu",
+      "year": 2020
+    },
+    {
+      "rank": 462,
+      "imdb_id": "tt9826344",
+      "title": "Why the Hell Are You Here, Teacher!?",
+      "original_title": "Nande Koko ni Sensei ga!?",
+      "year": 2019
+    },
+    {
+      "rank": 463,
+      "imdb_id": "tt10320398",
+      "title": "Keep Your Hands Off Eizouken!",
+      "original_title": "Eizouken ni wa Te wo Dasu na!",
+      "year": 2020
+    },
+    {
+      "rank": 464,
+      "imdb_id": "tt12728856",
+      "title": "The Hidden Dungeon Only I Can Enter",
+      "original_title": "Ore dake Haireru Kakushi Dungeon",
+      "year": 2021
+    },
+    {
+      "rank": 465,
+      "imdb_id": "tt13399402",
+      "title": "How a Realist Hero Rebuilt the Kingdom",
+      "original_title": "Genjitsu-shugi-yûsha no ôkoku-saiken-ki",
+      "year": 2021
+    },
+    {
+      "rank": 466,
+      "imdb_id": "tt13167196",
+      "title": "Edens Zero",
+      "original_title": "Edens Zero",
+      "year": 2021
+    },
+    {
+      "rank": 467,
+      "imdb_id": "tt8993464",
+      "title": "Bloom Into You",
+      "original_title": "Yagate Kimi ni Naru",
+      "year": 2018
+    },
+    {
+      "rank": 468,
+      "imdb_id": "tt12885610",
+      "title": "Noblesse",
+      "original_title": "Noblesse",
+      "year": 2020
+    },
+    {
+      "rank": 469,
+      "imdb_id": "tt12598008",
+      "title": "So I'm a Spider, So What?",
+      "original_title": "Kumo Desu ga, Nanika?",
+      "year": 2021
+    },
+    {
+      "rank": 470,
+      "imdb_id": "tt13186542",
+      "title": "Kemono Jihen",
+      "original_title": "Kemono Jihen",
+      "year": 2021
+    },
+    {
+      "rank": 471,
+      "imdb_id": "tt11988478",
+      "title": "Gleipnir",
+      "original_title": "Gleipnir",
+      "year": 2020
+    },
+    {
+      "rank": 472,
+      "imdb_id": "tt7742120",
+      "title": "Laid-Back Camp",
+      "original_title": "Yurukyan",
+      "year": 2018
+    },
+    {
+      "rank": 473,
+      "imdb_id": "tt13887556",
+      "title": "Thus Spoke Kishibe Rohan",
+      "original_title": "Thus Spoke Kishibe Rohan",
+      "year": 2017
+    },
+    {
+      "rank": 474,
+      "imdb_id": "tt14642342",
+      "title": "Sonny Boy",
+      "original_title": "Sonny Boy",
+      "year": 2021
+    },
+    {
+      "rank": 475,
+      "imdb_id": "tt13544802",
+      "title": "Seirei Gensouki: Spirit Chronicles",
+      "original_title": "Seirei Gensouki",
+      "year": 2021
+    },
+    {
+      "rank": 476,
+      "imdb_id": "tt10483250",
+      "title": "Astra Lost in Space",
+      "original_title": "Kanata no Astra",
+      "year": 2019
+    },
+    {
+      "rank": 477,
+      "imdb_id": "tt22986710",
+      "title": "Buddy Daddies",
+      "original_title": "Buddy Daddies",
+      "year": 2023
+    },
+    {
+      "rank": 478,
+      "imdb_id": "tt9402026",
+      "title": "Run with the Wind",
+      "original_title": "Kaze ga tsuyoku fuiteiru",
+      "year": 2018
+    },
+    {
+      "rank": 479,
+      "imdb_id": "tt7814574",
+      "title": "Junji Ito Collection",
+      "original_title": "Junji Itô: Korekushon",
+      "year": 2018
+    },
+    {
+      "rank": 480,
+      "imdb_id": "tt27417996",
+      "title": "I Got a Cheat Skill in Another World and Became Unrivaled in the Real World, Too",
+      "original_title": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta",
+      "year": 2023
+    },
+    {
+      "rank": 481,
+      "imdb_id": "tt1743681",
+      "title": "Yosuga no Sora: In Solitude, Where We Are Least Alone",
+      "original_title": "Yosuga no sora",
+      "year": 2010
+    },
+    {
+      "rank": 482,
+      "imdb_id": "tt13411814",
+      "title": "World's End Harem",
+      "original_title": "Shuumatsu no Harem",
+      "year": 2021
+    },
+    {
+      "rank": 483,
+      "imdb_id": "tt14476236",
+      "title": "Skeleton Knight in Another World",
+      "original_title": "Gaikotsu Kishi-sama, Tadaima isekai e odekake-chû",
+      "year": 2022
+    },
+    {
+      "rank": 484,
+      "imdb_id": "tt14980764",
+      "title": "Sasaki and Miyano",
+      "original_title": "Sasaki to Miyano",
+      "year": 2022
+    },
+    {
+      "rank": 485,
+      "imdb_id": "tt18561422",
+      "title": "Vermeil in Gold",
+      "original_title": "Kinsô no Vermeil ~Gakeppuchi majutsushi wa saikyô no yakusai to mahô sekai wo tsukisusumu~",
+      "year": 2022
+    },
+    {
+      "rank": 486,
+      "imdb_id": "tt1679482",
+      "title": "Supernatural: The Animation",
+      "original_title": "Supernatural: The Anime",
+      "year": 2011
+    },
+    {
+      "rank": 487,
+      "imdb_id": "tt18311412",
+      "title": "NieR:Automata Ver1.1a",
+      "original_title": "NieR: Automata Ver 1.1a",
+      "year": 2023
+    },
+    {
+      "rank": 488,
+      "imdb_id": "tt1196094",
+      "title": "Yu-Gi-Oh! 5D's",
+      "original_title": "Yûgiô: 5D's",
+      "year": 2008
+    },
+    {
+      "rank": 489,
+      "imdb_id": "tt5344382",
+      "title": "Mobile Suit Gundam: Iron-Blooded Orphans",
+      "original_title": "Kidou Senshi Gundam: Tekketsu no Orphans",
+      "year": 2015
+    },
+    {
+      "rank": 490,
+      "imdb_id": "tt16255458",
+      "title": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+      "original_title": "Otome Game Sekai wa Mob ni Kibishii Sekai desu",
+      "year": 2022
+    },
+    {
+      "rank": 491,
+      "imdb_id": "tt13483212",
+      "title": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside",
+      "original_title": "Shin no Nakama ja Nai to Yuusha no Party o Oidasareta node, Henkyou de Slow Life Suru Koto ni Shimashita",
+      "year": 2021
+    },
+    {
+      "rank": 492,
+      "imdb_id": "tt28776190",
+      "title": "Shangri-La Frontier",
+      "original_title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
+      "year": 2023
+    },
+    {
+      "rank": 493,
+      "imdb_id": "tt21927720",
+      "title": "Undead Unluck",
+      "original_title": "Undead Unluck",
+      "year": 2023
+    },
+    {
+      "rank": 494,
+      "imdb_id": "tt0129712",
+      "title": "Saber Rider and the Star Sheriffs",
+      "original_title": "Saber Rider and the Star Sheriffs",
+      "year": 1987
+    },
+    {
+      "rank": 495,
+      "imdb_id": "tt24229160",
+      "title": "Campfire Cooking in Another World with My Absurd Skill",
+      "original_title": "Tondemo Skill de Isekai Hourou Meshi",
+      "year": 2023
+    },
+    {
+      "rank": 496,
+      "imdb_id": "tt16156718",
+      "title": "Skip and Loafer",
+      "original_title": "Skip to Loafer",
+      "year": 2023
+    },
+    {
+      "rank": 497,
+      "imdb_id": "tt22889156",
+      "title": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
+      "original_title": "Tensei Oujo to Tensai Reijou no Mahou Kakumei",
+      "year": 2023
+    },
+    {
+      "rank": 498,
+      "imdb_id": "tt28261206",
+      "title": "Horimiya: The Missing Pieces",
+      "original_title": "Horimiya -piece-",
+      "year": 2023
+    },
+    {
+      "rank": 499,
+      "imdb_id": "tt13956452",
+      "title": "The Executioner and Her Way of Life",
+      "original_title": "Shokei Shoujo no Virgin Road",
+      "year": 2022
+    },
+    {
+      "rank": 500,
+      "imdb_id": "tt13628870",
+      "title": "Harem in the Labyrinth of Another World",
+      "original_title": "Isekai Meikyuu de Harem o",
+      "year": 2022
+    }
+  ]
+}
