@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "anisubio"
-version = "0.2.1"
+version = "0.2.2"
 description = "Russian anime subtitles addon for Stremio"
 requires-python = ">=3.11"
 dependencies = [

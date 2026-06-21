@@ -87,9 +87,33 @@ def test_lazy_request_promotes_existing_vacuum_job() -> None:
         lazy = enqueue_sync_job(db, 11, requested_episode=1, reason="lazy_load")
 
         assert lazy.id == vacuum.id
-        assert lazy.priority == 10
+        assert lazy.priority == 0
         assert lazy.reason == "lazy_load"
         assert lazy.source_page_url.endswith("id=274")
+
+
+def test_lazy_request_outranks_imdb_priority_job() -> None:
+    engine = create_engine("sqlite:///:memory:")
+    Base.metadata.create_all(engine)
+    with Session(engine, expire_on_commit=False) as db:
+        imdb_job = enqueue_sync_job(
+            db,
+            11,
+            reason="imdb_priority",
+            priority=1,
+            fansubs_id=274,
+        )
+
+        lazy = enqueue_sync_job(
+            db,
+            11,
+            requested_episode=1,
+            reason="lazy_load",
+        )
+
+        assert lazy.id == imdb_job.id
+        assert lazy.priority == 0
+        assert lazy.reason == "lazy_load"
 
 
 def test_recovers_running_job_after_worker_restart() -> None:

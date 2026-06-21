@@ -22,6 +22,7 @@ from anisubio.models import (
     ReviewItem,
     ReviewAnalysis,
     ExternalIdMapping,
+    FansubsCatalogItem,
     StorageObject,
     SubtitleAsset,
     UnresolvedSubtitle,
@@ -264,6 +265,17 @@ async def _subtitle_response(
         )
         .order_by(SubtitleAsset.id)
     ).all()
+    assets = [
+        asset
+        for asset in assets
+        if asset.fansubs_id is None
+        or (
+            (catalog_item := db.get(FansubsCatalogItem, asset.fansubs_id))
+            is not None
+            and catalog_item.resolution_status == "resolved"
+            and catalog_item.kitsu_id == asset.kitsu_id
+        )
+    ]
     if not assets:
         enqueue_sync_job(db, kitsu_id, episode, reason="lazy_load")
         return JSONResponse(
@@ -592,6 +604,7 @@ def resolve_unresolved_subtitle(
     if asset is None:
         asset = SubtitleAsset(
             kitsu_id=issue.kitsu_id,
+            fansubs_id=issue.fansubs_title_id,
             episode=episode,
             language="rus",
             display_name=Path(issue.original_filename).stem,

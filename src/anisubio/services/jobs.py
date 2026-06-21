@@ -11,6 +11,9 @@ from anisubio.models import JobStatus, SyncJob, utcnow
 from anisubio.services.review_queue import add_failed_job
 
 
+LAZY_LOAD_PRIORITY = 0
+
+
 def enqueue_sync_job(
     db: Session,
     kitsu_id: int,
@@ -35,7 +38,10 @@ def enqueue_sync_job(
         )
         if existing_for_kitsu:
             if existing_for_kitsu.status == JobStatus.PENDING.value:
-                existing_for_kitsu.priority = 10
+                existing_for_kitsu.priority = min(
+                    existing_for_kitsu.priority,
+                    LAZY_LOAD_PRIORITY,
+                )
                 existing_for_kitsu.reason = "lazy_load"
                 existing_for_kitsu.requested_episode = requested_episode
                 db.commit()
@@ -65,7 +71,11 @@ def enqueue_sync_job(
         kitsu_id=kitsu_id,
         requested_episode=requested_episode,
         reason=reason,
-        priority=priority if priority is not None else (10 if reason == "lazy_load" else 100),
+        priority=(
+            priority
+            if priority is not None
+            else (LAZY_LOAD_PRIORITY if reason == "lazy_load" else 100)
+        ),
         fansubs_id=fansubs_id,
         source_page_url=source_page_url,
         resolved_mal_id=resolved_mal_id,

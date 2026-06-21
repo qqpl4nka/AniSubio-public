@@ -171,6 +171,14 @@ class CatalogMetadataResolver:
             item.start_year = int(year_match.group(1))
 
     @staticmethod
+    def _kind_supported(fansubs_kind: str | None) -> bool:
+        return not fansubs_kind or fansubs_kind.casefold() not in {
+            "игровой тв",
+            "сборник",
+            "манга",
+        }
+
+    @staticmethod
     def _kind_matches(fansubs_kind: str | None, shikimori_kind: str | None) -> bool:
         if not fansubs_kind or not shikimori_kind:
             return True
@@ -182,13 +190,18 @@ class CatalogMetadataResolver:
             "спецвыпуск": "special",
             "cпецвыпуск": "special",
         }
-        expected = mapping.get(fansubs_kind.casefold())
+        normalized = fansubs_kind.casefold()
+        if not CatalogMetadataResolver._kind_supported(fansubs_kind):
+            return False
+        expected = mapping.get(normalized)
         return expected is None or expected == shikimori_kind.casefold()
 
     async def resolve_one(
         self,
         item: FansubsCatalogItem,
     ) -> tuple[int, int] | None:
+        if not self._kind_supported(item.media_kind):
+            return None
         aliases = json.loads(item.aliases_json or "[]")
         search_terms = list(dict.fromkeys([item.canonical_title, *aliases]))
         matches: dict[int, dict] = {}
@@ -207,18 +220,32 @@ class CatalogMetadataResolver:
                     normalize_title(str(anime.get("name") or "")),
                     normalize_title(str(anime.get("russian") or "")),
                 }
-                if names & normalized_aliases:
+                if (
+                    names & normalized_aliases
+                    and self._kind_matches(
+                        item.media_kind,
+                        anime.get("kind"),
+                    )
+                ):
                     matches[int(anime["id"])] = anime
             if matches:
                 break
+
+        # Titles alone are not enough: anime franchises often reuse the same
+        # localized name for a TV series, movie, OVA and specials. Apply the
+        # release kind even when an exact title produced only one candidate.
+        matches = {
+            mal_id: anime
+            for mal_id, anime in matches.items()
+            if self._kind_matches(item.media_kind, anime.get("kind"))
+        }
 
         if len(matches) > 1:
             await self.enrich_details(item)
             narrowed = {
                 mal_id: anime
                 for mal_id, anime in matches.items()
-                if self._kind_matches(item.media_kind, anime.get("kind"))
-                and (
+                if (
                     item.episode_count is None
                     or int(anime.get("episodes") or 0) == item.episode_count
                 )

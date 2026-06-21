@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 from urllib.parse import urlparse
 from uuid import uuid4
 
@@ -46,6 +47,8 @@ async def import_subtitles(
     duplicates = 0
     unresolved: list[str] = []
     episodes: set[int] = set()
+    fansubs_match = re.search(r"[?&]id=(\d+)", source_reference)
+    fansubs_id = int(fansubs_match.group(1)) if fansubs_match else None
 
     for item in files:
         episode = episode_from_filename(
@@ -65,6 +68,7 @@ async def import_subtitles(
         db.add(
             SubtitleAsset(
                 kitsu_id=request.kitsu_id,
+                fansubs_id=fansubs_id,
                 episode=episode,
                 language=request.language,
                 display_name=Path(item.original_name).stem,

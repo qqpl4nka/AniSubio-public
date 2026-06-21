@@ -121,3 +121,104 @@ async def test_ambiguous_title_uses_episode_count_and_year() -> None:
     assert await CatalogMetadataResolver(client).resolve_one(item) == (20, 11)
     assert item.episode_count == 220
     assert item.start_year == 2002
+
+
+@pytest.mark.anyio
+async def test_same_title_does_not_mix_tv_series_and_movie() -> None:
+    client = FakeCatalogClient(
+        json_responses=[
+            [
+                {
+                    "id": 9253,
+                    "name": "Steins;Gate",
+                    "russian": "Врата Штейна",
+                    "kind": "tv",
+                }
+            ],
+            [
+                {
+                    "id": 11577,
+                    "name": "Steins;Gate Movie: Fuka Ryouiki no Deja vu",
+                    "russian": "Врата Штейна: Зона загрузки дежавю",
+                    "kind": "movie",
+                }
+            ],
+            {
+                "data": [
+                    {
+                        "relationships": {
+                            "item": {"data": {"type": "anime", "id": "7173"}}
+                        }
+                    }
+                ]
+            },
+        ]
+    )
+    item = FansubsCatalogItem(
+        fansubs_id=4474,
+        page_url="http://fansubs.ru/base.php?id=4474",
+        canonical_title="Врата Штейна",
+        aliases_json=json.dumps(
+            [
+                "Врата Штейна",
+                "Steins;Gate Movie: Fuka Ryouiki no Deja vu",
+            ],
+            ensure_ascii=False,
+        ),
+        media_kind="Фильм",
+    )
+
+    assert await CatalogMetadataResolver(client).resolve_one(item) == (
+        11577,
+        7173,
+    )
+
+
+@pytest.mark.anyio
+async def test_unique_exact_title_is_rejected_when_kind_differs() -> None:
+    client = FakeCatalogClient(
+        json_responses=[
+            [
+                {
+                    "id": 9253,
+                    "name": "Steins;Gate",
+                    "russian": "Врата Штейна",
+                    "kind": "tv",
+                }
+            ]
+        ]
+    )
+    item = FansubsCatalogItem(
+        fansubs_id=4474,
+        page_url="http://fansubs.ru/base.php?id=4474",
+        canonical_title="Врата Штейна",
+        aliases_json=json.dumps(["Врата Штейна"], ensure_ascii=False),
+        media_kind="Фильм",
+    )
+
+    assert await CatalogMetadataResolver(client).resolve_one(item) is None
+
+
+@pytest.mark.anyio
+async def test_live_action_card_is_not_mapped_to_anime() -> None:
+    client = FakeCatalogClient(
+        json_responses=[
+            [
+                {
+                    "id": 1535,
+                    "name": "Death Note",
+                    "russian": "Тетрадь смерти",
+                    "kind": "tv",
+                }
+            ]
+        ]
+    )
+    item = FansubsCatalogItem(
+        fansubs_id=1328,
+        page_url="http://fansubs.ru/base.php?id=1328",
+        canonical_title="Тетрадь смерти",
+        aliases_json=json.dumps(["Death Note"], ensure_ascii=False),
+        media_kind="Игровой ТВ",
+    )
+
+    assert await CatalogMetadataResolver(client).resolve_one(item) is None

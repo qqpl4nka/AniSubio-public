@@ -1,6 +1,6 @@
 from collections.abc import Generator
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
 
 from anisubio.config import get_settings
@@ -35,6 +35,26 @@ def create_schema() -> None:
     from anisubio import models  # noqa: F401
 
     Base.metadata.create_all(bind=engine)
+    if settings.database_url.startswith("sqlite"):
+        columns = {
+            column["name"]
+            for column in inspect(engine).get_columns("subtitle_assets")
+        }
+        if "fansubs_id" not in columns:
+            with engine.begin() as connection:
+                connection.execute(
+                    text(
+                        "ALTER TABLE subtitle_assets "
+                        "ADD COLUMN fansubs_id INTEGER"
+                    )
+                )
+                connection.execute(
+                    text(
+                        "CREATE INDEX IF NOT EXISTS "
+                        "ix_subtitle_assets_fansubs_id "
+                        "ON subtitle_assets (fansubs_id)"
+                    )
+                )
 
 
 def get_db() -> Generator[Session, None, None]:

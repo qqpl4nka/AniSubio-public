@@ -80,6 +80,11 @@ class SubtitleAsset(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True)
     kitsu_id: Mapped[int] = mapped_column(Integer, nullable=False)
+    fansubs_id: Mapped[int | None] = mapped_column(
+        Integer,
+        nullable=True,
+        index=True,
+    )
     episode: Mapped[int] = mapped_column(Integer, nullable=False)
     language: Mapped[str] = mapped_column(String(16), default="rus")
     display_name: Mapped[str] = mapped_column(String(255))

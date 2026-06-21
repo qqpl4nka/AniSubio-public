@@ -588,6 +588,7 @@ class SyncWorker:
                         pending_asset_rows.append(
                             {
                                 "kitsu_id": kitsu_id,
+                                "fansubs_id": source_fansubs_id,
                                 "episode": episode,
                                 "language": "rus",
                                 "display_name": Path(item.original_name).stem,
