@@ -55,6 +55,22 @@ def create_schema() -> None:
                         "ON subtitle_assets (fansubs_id)"
                     )
                 )
+        if "manual_verified" not in columns:
+            with engine.begin() as connection:
+                connection.execute(
+                    text(
+                        "ALTER TABLE subtitle_assets "
+                        "ADD COLUMN manual_verified INTEGER NOT NULL DEFAULT 0"
+                    )
+                )
+        if "mapping_quarantined" not in columns:
+            with engine.begin() as connection:
+                connection.execute(
+                    text(
+                        "ALTER TABLE subtitle_assets "
+                        "ADD COLUMN mapping_quarantined INTEGER NOT NULL DEFAULT 0"
+                    )
+                )
 
 
 def get_db() -> Generator[Session, None, None]:

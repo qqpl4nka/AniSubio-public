@@ -1,12 +1,14 @@
 from __future__ import annotations
 
+import json
 from urllib.parse import quote
 
 import aiohttp
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from anisubio.models import ExternalIdMapping
+from anisubio.models import ExternalIdMapping, FansubsCatalogItem
+from anisubio.services.catalog import normalize_title
 
 
 CINEMETA_META_URL = "https://v3-cinemeta.strem.io/meta/series/{imdb_id}.json"
@@ -59,6 +61,56 @@ async def _kitsu_for_tvdb(tvdb_id: int, season: int) -> int | None:
     return None
 
 
+def _catalog_kitsu_for_title(db: Session, title: str) -> int | None:
+    normalized = normalize_title(title)
+    if not normalized:
+        return None
+    kitsu_ids: set[int] = set()
+    items = db.scalars(
+        select(FansubsCatalogItem).where(
+            FansubsCatalogItem.resolution_status == "resolved",
+            FansubsCatalogItem.kitsu_id.is_not(None),
+            FansubsCatalogItem.media_kind == "ТВ",
+        )
+    ).all()
+    for item in items:
+        try:
+            aliases = json.loads(item.aliases_json or "[]")
+        except json.JSONDecodeError:
+            aliases = []
+        names = {normalize_title(item.canonical_title)}
+        names.update(normalize_title(str(alias)) for alias in aliases)
+        if normalized in names and item.kitsu_id is not None:
+            kitsu_ids.add(item.kitsu_id)
+    return kitsu_ids.pop() if len(kitsu_ids) == 1 else None
+
+
+def _catalog_title_matches_kitsu(
+    db: Session,
+    kitsu_id: int,
+    title: str,
+) -> bool | None:
+    items = db.scalars(
+        select(FansubsCatalogItem).where(
+            FansubsCatalogItem.kitsu_id == kitsu_id,
+            FansubsCatalogItem.resolution_status == "resolved",
+        )
+    ).all()
+    if not items:
+        return None
+    normalized = normalize_title(title)
+    for item in items:
+        try:
+            aliases = json.loads(item.aliases_json or "[]")
+        except json.JSONDecodeError:
+            aliases = []
+        names = {normalize_title(item.canonical_title)}
+        names.update(normalize_title(str(alias)) for alias in aliases)
+        if normalized in names:
+            return True
+    return False
+
+
 async def resolve_imdb_series(
     db: Session,
     imdb_id: str,
@@ -74,11 +126,18 @@ async def resolve_imdb_series(
         return cached.kitsu_id
 
     payload = await _get_json(CINEMETA_META_URL.format(imdb_id=imdb_id))
-    tvdb_id = payload.get("meta", {}).get("tvdb_id")
+    meta = payload.get("meta", {})
+    tvdb_id = meta.get("tvdb_id")
     if not isinstance(tvdb_id, int):
         return None
-    kitsu_id = await _kitsu_for_tvdb(tvdb_id, season)
+    title = str(meta.get("name") or "")
+    kitsu_id = _catalog_kitsu_for_title(db, title)
     if kitsu_id is None:
+        kitsu_id = await _kitsu_for_tvdb(tvdb_id, season)
+    if kitsu_id is None:
+        return None
+    title_matches = _catalog_title_matches_kitsu(db, kitsu_id, title)
+    if title_matches is False:
         return None
     db.add(
         ExternalIdMapping(

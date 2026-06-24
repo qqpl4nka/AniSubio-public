@@ -5,6 +5,7 @@ from anisubio.main import (
     KITSU_VIDEO_ID,
     app,
     addon_manifest_url,
+    is_auxiliary_subtitle,
     load_subtitles_with_encoding_fallback,
     stremio_install_url,
     stremio_web_install_url,
@@ -84,3 +85,11 @@ def test_cp1251_subtitles_are_loaded_with_fallback(tmp_path: Path) -> None:
     subtitles = load_subtitles_with_encoding_fallback(source)
 
     assert subtitles[0].text == "Привет"
+
+
+def test_auxiliary_tracks_are_detected_without_matching_regular_words() -> None:
+    assert is_auxiliary_subtitle("Bleach Sennen Kessen Hen ED ep 01.ass")
+    assert is_auxiliary_subtitle("[Group] Opening 01.srt")
+    assert is_auxiliary_subtitle("episode 01 signs.ass")
+    assert not is_auxiliary_subtitle("DogeEx Bleach episode 01.ass")
+    assert not is_auxiliary_subtitle("Steins;Gate 01.ass")

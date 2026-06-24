@@ -39,6 +39,10 @@ KITSU_VIDEO_ID = re.compile(r"^kitsu:(?P<kitsu_id>\d+):(?P<episode>\d+)$")
 IMDB_VIDEO_ID = re.compile(
     r"^(?P<imdb_id>tt\d+):(?P<season>\d+):(?P<episode>\d+)$"
 )
+AUXILIARY_SUBTITLE_NAME = re.compile(
+    r"(?:^|[\s._\-\[\]()])(?:op|ed|opening|ending|karaoke|signs?)(?:$|[\s._\-\[\]()])",
+    re.IGNORECASE,
+)
 
 
 @asynccontextmanager
@@ -66,6 +70,11 @@ app.add_middleware(
 
 def cache_headers(seconds: int) -> dict[str, str]:
     return {"Cache-Control": f"public, max-age={seconds}"}
+
+
+def is_auxiliary_subtitle(filename: str) -> bool:
+    """Return true for opening/ending/karaoke/sign-only subtitle tracks."""
+    return AUXILIARY_SUBTITLE_NAME.search(filename) is not None
 
 
 def load_subtitles_with_encoding_fallback(path: Path) -> pysubs2.SSAFile:
@@ -268,12 +277,16 @@ async def _subtitle_response(
     assets = [
         asset
         for asset in assets
-        if asset.fansubs_id is None
-        or (
-            (catalog_item := db.get(FansubsCatalogItem, asset.fansubs_id))
-            is not None
-            and catalog_item.resolution_status == "resolved"
-            and catalog_item.kitsu_id == asset.kitsu_id
+        if not asset.mapping_quarantined
+        and (
+            asset.manual_verified
+            or asset.fansubs_id is None
+            or (
+                (catalog_item := db.get(FansubsCatalogItem, asset.fansubs_id))
+                is not None
+                and catalog_item.resolution_status == "resolved"
+                and catalog_item.kitsu_id == asset.kitsu_id
+            )
         )
     ]
     if not assets:
@@ -292,10 +305,16 @@ async def _subtitle_response(
         assets,
         key=lambda asset: (
             "rus-old" in asset.original_filename.casefold(),
-            "sign" in asset.original_filename.casefold(),
+            is_auxiliary_subtitle(asset.original_filename),
             asset.id,
         ),
-    )[:3]
+    )
+    full_episode_assets = [
+        asset
+        for asset in assets
+        if not is_auxiliary_subtitle(asset.original_filename)
+    ]
+    assets = (full_episode_assets or assets)[:3]
     response = SubtitleResponse(
         subtitles=[
             SubtitleItem(

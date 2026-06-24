@@ -85,6 +85,12 @@ class SubtitleAsset(Base):
         nullable=True,
         index=True,
     )
+    # Explicitly reviewed mappings may legitimately target another Kitsu ID
+    # when one legacy fansubs card contains several seasons or OVAs.
+    manual_verified: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    mapping_quarantined: Mapped[int] = mapped_column(
+        Integer, default=0, nullable=False
+    )
     episode: Mapped[int] = mapped_column(Integer, nullable=False)
     language: Mapped[str] = mapped_column(String(16), default="rus")
     display_name: Mapped[str] = mapped_column(String(255))
