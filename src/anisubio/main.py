@@ -12,7 +12,7 @@ from tempfile import NamedTemporaryFile
 from fastapi import Depends, FastAPI, Header, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
-from sqlalchemy import distinct, func, select
+from sqlalchemy import and_, distinct, exists, func, or_, select
 from sqlalchemy.orm import Session
 
 from anisubio import __version__
@@ -109,17 +109,75 @@ def stremio_web_install_url(public_base_url: str) -> str:
     )
 
 
+def valid_subtitle_asset_clause():
+    """SQL clause matching subtitle assets that Stremio is allowed to serve."""
+    return and_(
+        SubtitleAsset.mapping_quarantined == 0,
+        or_(
+            SubtitleAsset.manual_verified != 0,
+            SubtitleAsset.fansubs_id.is_(None),
+            exists(
+                select(FansubsCatalogItem.fansubs_id).where(
+                    FansubsCatalogItem.fansubs_id == SubtitleAsset.fansubs_id,
+                    FansubsCatalogItem.resolution_status == "resolved",
+                    FansubsCatalogItem.kitsu_id == SubtitleAsset.kitsu_id,
+                )
+            ),
+        ),
+    )
+
+
+def load_home_stats(db: Session) -> dict[str, int]:
+    """Return user-facing inventory stats for the installation page.
+
+    These numbers intentionally count only the post-audit inventory: quarantined
+    or mismatched mappings stay in storage, but are not exposed to Stremio and
+    should not inflate the public landing page.
+    """
+    valid_assets = valid_subtitle_asset_clause()
+    subtitle_count = db.scalar(
+        select(func.count()).select_from(SubtitleAsset).where(valid_assets)
+    ) or 0
+    anime_count = db.scalar(
+        select(func.count(distinct(SubtitleAsset.kitsu_id))).where(valid_assets)
+    ) or 0
+    episode_pairs = (
+        select(SubtitleAsset.kitsu_id, SubtitleAsset.episode)
+        .where(valid_assets)
+        .distinct()
+        .subquery()
+    )
+    episode_count = db.scalar(
+        select(func.count()).select_from(episode_pairs)
+    ) or 0
+    catalog_total = db.scalar(
+        select(func.count()).select_from(FansubsCatalogItem)
+    ) or 0
+    catalog_resolved = db.scalar(
+        select(func.count())
+        .select_from(FansubsCatalogItem)
+        .where(FansubsCatalogItem.resolution_status == "resolved")
+    ) or 0
+    catalog_imported = db.scalar(
+        select(func.count(distinct(SubtitleAsset.fansubs_id)))
+        .where(valid_assets, SubtitleAsset.fansubs_id.is_not(None))
+    ) or 0
+    return {
+        "subtitle_count": subtitle_count,
+        "anime_count": anime_count,
+        "episode_count": episode_count,
+        "catalog_total": catalog_total,
+        "catalog_resolved": catalog_resolved,
+        "catalog_imported": catalog_imported,
+    }
+
+
 @app.get("/", response_class=HTMLResponse)
 def addon_home(
     db: Session = Depends(get_db),
     settings: Settings = Depends(get_settings),
 ) -> HTMLResponse:
-    subtitle_count = db.scalar(
-        select(func.count()).select_from(SubtitleAsset)
-    ) or 0
-    anime_count = db.scalar(
-        select(func.count(distinct(SubtitleAsset.kitsu_id)))
-    ) or 0
+    stats = load_home_stats(db)
     manifest_url = addon_manifest_url(settings.public_base_url)
     install_url = stremio_install_url(settings.public_base_url)
     web_install_url = stremio_web_install_url(settings.public_base_url)
@@ -146,16 +204,25 @@ def addon_home(
       font-weight:750; }}
     .secondary {{ background:#ffffff14; border:1px solid #ffffff30; }}
     code {{ overflow-wrap:anywhere; color:#cbb7ef; }}
+    .note {{ font-size:14px; color:#bdb5d1; }}
   </style>
 </head>
 <body><main>
   <h1>AniSubio</h1>
-  <p>Живой Stremio-аддон русских аниме-субтитров. База продолжает
-  пополняться фоновым парсером без переустановки аддона.</p>
+  <p>Живой Stremio-аддон русских аниме-субтитров. База fansubs.ru уже
+  подключена и продолжает пополняться фоновым парсером без переустановки
+  аддона.</p>
   <div class="stats">
-    <div class="stat"><strong>{subtitle_count:,}</strong>дорожек</div>
-    <div class="stat"><strong>{anime_count:,}</strong>аниме</div>
+    <div class="stat"><strong>{stats["subtitle_count"]:,}</strong>дорожек</div>
+    <div class="stat"><strong>{stats["anime_count"]:,}</strong>аниме</div>
+    <div class="stat"><strong>{stats["episode_count"]:,}</strong>эпизодов</div>
   </div>
+  <p class="note">На странице показаны только проверенные дорожки, которые
+  аддон может отдавать Stremio. Сырые, спорные и карантинные файлы в эти
+  цифры не входят.</p>
+  <p class="note">Каталог fansubs.ru: найдено {stats["catalog_total"]:,}
+  карточек, сопоставлено {stats["catalog_resolved"]:,}, импортировано
+  {stats["catalog_imported"]:,}.</p>
   <a class="button" href="{html.escape(web_install_url)}">Открыть установку</a>
   <a class="button secondary" href="{html.escape(install_url)}">Desktop-ссылка</a>
   <p><strong>Важно:</strong> на открывшейся карточке AniSubio нажмите
