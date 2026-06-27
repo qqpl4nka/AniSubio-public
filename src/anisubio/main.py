@@ -209,20 +209,11 @@ def addon_home(
 </head>
 <body><main>
   <h1>AniSubio</h1>
-  <p>Живой Stremio-аддон русских аниме-субтитров. База fansubs.ru уже
-  подключена и продолжает пополняться фоновым парсером без переустановки
-  аддона.</p>
   <div class="stats">
     <div class="stat"><strong>{stats["subtitle_count"]:,}</strong>дорожек</div>
     <div class="stat"><strong>{stats["anime_count"]:,}</strong>аниме</div>
     <div class="stat"><strong>{stats["episode_count"]:,}</strong>эпизодов</div>
   </div>
-  <p class="note">На странице показаны только проверенные дорожки, которые
-  аддон может отдавать Stremio. Сырые, спорные и карантинные файлы в эти
-  цифры не входят.</p>
-  <p class="note">Каталог fansubs.ru: найдено {stats["catalog_total"]:,}
-  карточек, сопоставлено {stats["catalog_resolved"]:,}, импортировано
-  {stats["catalog_imported"]:,}.</p>
   <a class="button" href="{html.escape(web_install_url)}">Открыть установку</a>
   <a class="button secondary" href="{html.escape(install_url)}">Desktop-ссылка</a>
   <p><strong>Важно:</strong> на открывшейся карточке AniSubio нажмите
